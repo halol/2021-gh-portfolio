@@ -1,0 +1,101 @@
+$font-family: "Poppins", sans-serif;
+
+// Colors
+
+$primary: #ff6b17;
+$secondary: #1774ff;
+// 22,100,55,1
+$primary-map: (
+  "h": 22,
+  "s": 100,
+  "l": 55
+);
+$primary-h: 22;
+$primary-s: 100;
+$primary-l: 55;
+
+$primary-hsl: hsl(
+  map-get($primary-map, "h"),
+  map-get($primary-map, "s"),
+  map-get($primary-map, "l")
+);
+
+$black: #0d1d35;
+$grey-light: #f7f8fc;
+$grey-medium: #5a607d;
+
+// Responsivenes
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+  @media (max-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (max-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (max-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (max-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media (min-width: #{$screen-xl-min + 1}) {
+    @content;
+  }
+}
+
+@mixin theme-dark {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+}
+
+@mixin theme-light {
+  @media (prefers-color-scheme: light) {
+    @content;
+  }
+}
+
+$padding: (
+  "small": 0.5rem,
+  "normal": 1rem,
+  "medium": 2rem,
+  "large": 3rem,
+  "xxl": 4rem
+);
+
+@function padding($key) {
+  @return map-get($padding, $key);
+}
+
+$border-radius: 1rem;
+$border-radius-medium: $border-radius * 1.5;
+$border-radius-large: $border-radius * 2;

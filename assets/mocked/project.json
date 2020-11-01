@@ -1,0 +1,327 @@
+{
+  "key_color": "#ffb800",
+  "project_name": [
+    {
+      "type": "heading1",
+      "text": "Test Project",
+      "spans": []
+    }
+  ],
+  "project_intro": [
+    {
+      "type": "paragraph",
+      "text": "Product introduction something clever bleblelbeble",
+      "spans": []
+    }
+  ],
+  "company": [
+    {
+      "type": "paragraph",
+      "text": "Kite.ly",
+      "spans": []
+    }
+  ],
+  "meta_year": "2018-07-01",
+  "platforms": [
+    {
+      "platform": "Android"
+    },
+    {
+      "platform": "iOS"
+    },
+    {
+      "platform": "Web"
+    }
+  ],
+  "cover": {
+    "tile": {}
+  },
+  "body": [
+    {
+      "slice_type": "project_goal",
+      "slice_label": null,
+      "items": [
+        {}
+      ],
+      "primary": {
+        "project_goal_text": [
+          {
+            "type": "paragraph",
+            "text": "Project goal goes here",
+            "spans": []
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "text",
+      "slice_label": null,
+      "items": [
+        {}
+      ],
+      "primary": {
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut magna metus. Duis non velit at sapien suscipit consequat quis a dolor. In varius ornare purus, eget varius ipsum scelerisque et. Donec dui neque, suscipit eget libero quis, pellentesque malesuada nunc. Aliquam erat volutpat. Donec sit amet justo blandit, tempor velit at, aliquam erat. Nam tincidunt pulvinar nibh ut ultricies. Morbi a mi eu mauris venenatis dictum eget in leo. Aliquam aliquam convallis metus in sollicitudin. Mauris quis mi vitae orci placerat mollis ac at dolor. Sed malesuada vehicula ultricies. Nam a tincidunt dui, sed pulvinar nulla. Phasellus rhoncus, leo et hendrerit cursus, tellus lorem elementum libero, vel dictum tortor erat non nisl. Nunc sed congue libero, sit amet dignissim nibh.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Maecenas ullamcorper scelerisque odio sed iaculis. Cras ut augue sed turpis facilisis tincidunt. Suspendisse id aliquam sapien. Etiam dapibus dui nec scelerisque fringilla. Nulla interdum, ex quis accumsan tincidunt, turpis erat tincidunt mi, eget tempus orci nunc sed ante. Curabitur sem purus, congue in nulla vitae, posuere tincidunt lectus. Curabitur iaculis porttitor nulla a maximus.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Maecenas fermentum magna libero, ut volutpat ligula accumsan egestas. Etiam purus diam, sollicitudin sed arcu non, ullamcorper dapibus arcu. Nullam at porttitor justo. Integer purus mauris, bibendum ut neque ut, elementum dictum eros. Nam facilisis suscipit interdum. Quisque ultrices interdum nibh, in dictum ipsum semper vel. Pellentesque ac nunc lacinia, sagittis eros nec, iaculis tellus. In eu velit eget ligula molestie blandit. Curabitur lacus mi, viverra ac libero tincidunt, rutrum tempus dolor. Maecenas varius ultrices faucibus.",
+            "spans": []
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "image_gallery",
+      "slice_label": null,
+      "items": [
+        {
+          "mockup_caption": [
+            {
+              "type": "paragraph",
+              "text": "My Android mockup",
+              "spans": []
+            }
+          ],
+          "mockup_type": "mobile",
+          "mockup_image": {
+            "dimensions": {
+              "width": 421,
+              "height": 858
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/hadala-art/62af8abf-694d-4f19-b49f-db12ff65bc21_pixel.png?auto=compress,format"
+          }
+        },
+        {
+          "mockup_caption": [
+            {
+              "type": "paragraph",
+              "text": "My laptop mockup",
+              "spans": []
+            }
+          ],
+          "mockup_type": "desktop",
+          "mockup_image": {
+            "dimensions": {
+              "width": 2011,
+              "height": 1171
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/hadala-art/67edbe4b-0be8-4d42-8d29-9c7ffcbd3cd7_macbook.png?auto=compress,format"
+          }
+        },
+        {
+          "mockup_caption": [
+            {
+              "type": "paragraph",
+              "text": "My tablet mockup",
+              "spans": []
+            }
+          ],
+          "mockup_type": "tablet",
+          "mockup_image": {
+            "dimensions": {
+              "width": 657,
+              "height": 908
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/hadala-art/f9f448c4-a09c-4eb2-a66a-76f047bb8f4d_ipad.png?auto=compress,format"
+          }
+        },
+        {
+          "mockup_caption": [
+            {
+              "type": "paragraph",
+              "text": "My default mockup",
+              "spans": []
+            }
+          ],
+          "mockup_type": "default",
+          "mockup_image": {
+            "dimensions": {
+              "width": 423,
+              "height": 858
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/hadala-art/bf02108d-cc30-4061-b986-5b1d2ae7e3e2_iphone.png?auto=compress,format"
+          }
+        }
+      ],
+      "primary": {
+        "mockups_collection": [
+          {
+            "type": "heading2",
+            "text": "Some mockups 1",
+            "spans": []
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "screenshots",
+      "slice_label": null,
+      "items": [
+        {
+          "screenshot_image": {
+            "dimensions": {
+              "width": 1280,
+              "height": 720
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/hadala-art/95641d89-8c28-4636-9737-1ceb2fc6e4b0_Screenshot+2020-11-01+at+10.23.52.png?auto=compress,format&rect=172,156,2753,1549&w=1280&h=720"
+          },
+          "screenshot_caption": [
+            {
+              "type": "paragraph",
+              "text": "This is my screenshot",
+              "spans": []
+            }
+          ]
+        },
+        {
+          "screenshot_image": {
+            "dimensions": {
+              "width": 2134,
+              "height": 1310
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/hadala-art/acc4a7ce-99b9-44d3-9bba-2cda1babeb64_Screenshot+2020-10-31+at+12.55.03.png?auto=compress,format"
+          },
+          "screenshot_caption": []
+        }
+      ],
+      "primary": {}
+    },
+    {
+      "slice_type": "text",
+      "slice_label": null,
+      "items": [
+        {}
+      ],
+      "primary": {
+        "text": [
+          {
+            "type": "heading3",
+            "text": "Query all language versions by UID",
+            "spans": [
+              {
+                "start": 0,
+                "end": 34,
+                "type": "strong"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The getByUID function will always return a single document. If you need to query all the language versions that share the same UID, then you can use the following method to retrieve them all at the same time.",
+            "spans": [
+              {
+                "start": 4,
+                "end": 12,
+                "type": "strong"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "quote",
+      "slice_label": null,
+      "items": [
+        {}
+      ],
+      "primary": {
+        "quote": [
+          {
+            "type": "paragraph",
+            "text": "This page gives examples of how to query for a document either by its ID or its UID. It provides examples for both using the query helper functions and doing the query manually.",
+            "spans": []
+          }
+        ],
+        "name_of_the_author": [
+          {
+            "type": "paragraph",
+            "text": "Greg Hadala",
+            "spans": []
+          }
+        ],
+        "portrait_author": {
+          "dimensions": {
+            "width": 700,
+            "height": 700
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/22724f92-5608-4419-8047-9e7e9b7da6aa_IMG_5149+%282%29.jpeg?auto=compress,format&rect=0,80,480,480&w=700&h=700",
+          "mobile": {
+            "dimensions": {
+              "width": 350,
+              "height": 350
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/hadala-art/22724f92-5608-4419-8047-9e7e9b7da6aa_IMG_5149+%282%29.jpeg?auto=compress,format&rect=0,80,480,480&w=350&h=350"
+          }
+        }
+      }
+    }
+  ],
+  "seo_title": [
+    {
+      "type": "heading1",
+      "text": "My Friendly SEO Title",
+      "spans": []
+    }
+  ],
+  "seo_description": [
+    {
+      "type": "paragraph",
+      "text": "Sed dolor turpis, pharetra ac viverra eget, efficitur sit amet orci. Maecenas vestibulum, arcu et pretium molestie, elit metus viverra lectus, id varius purus ipsum et diam. Sed cursus venenatis elementum.",
+      "spans": []
+    }
+  ],
+  "social_title": [],
+  "cover_linkedin": {
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/hadala-art/8006add2-a055-46b2-8025-48543f862301_IMG_20200829_152752.jpg?auto=compress,format"
+  },
+  "cover_twitter": {
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/hadala-art/ad2eabc6-194c-43ff-bc9e-3d04d7c63cc9_IMG_20200829_153045.jpg?auto=compress,format"
+  },
+  "dribble_shot": {
+    "dimensions": {
+      "width": 4032,
+      "height": 3024
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/hadala-art/e95993af-9438-4f7c-90eb-bfac460fdc52_IMG_20200829_151928.jpg?auto=compress,format"
+  }
+}

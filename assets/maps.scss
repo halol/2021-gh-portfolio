@@ -1,0 +1,19 @@
+$theme-light: (
+  "bg-body": #f5f5f5,
+  "bg-card": #fff,
+  "text-body": $black,
+  "muted": $grey-medium,
+  "screenshot": "#E9E8F1"
+);
+
+$theme-dark: (
+  "bg-body": darken($black, 10%),
+  "bg-card": darken($black, 20%),
+  "text-body": $grey-light,
+  "muted": $grey-medium,
+  "screenshot": "#3B3852"
+);
+
+@function color($theme, $key) {
+  @return map-get($theme, $key);
+}

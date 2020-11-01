@@ -1,0 +1,205 @@
+[
+  {
+    "id": "XwyMzRQAACMAs_Hw",
+    "uid": "kitely",
+    "type": "project",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X512URIAACUAQgI1&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XwyMzRQAACMAs_Hw%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-10-26T16:23:05+0000",
+    "last_publication_date": "2020-10-26T16:23:05+0000",
+    "slugs": [
+      "test-project",
+      "kite.ly---mobile--web-sdk"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [
+      {
+        "id": "X512SxIAAOUwQgIZ",
+        "uid": "testowy-projekt",
+        "type": "project",
+        "lang": "pl"
+      }
+    ],
+    "data": {
+      "key_color": "#ffb800",
+      "project_name": [
+        {
+          "type": "heading1",
+          "text": "Test Project",
+          "spans": []
+        }
+      ],
+      "company": [
+        {
+          "type": "paragraph",
+          "text": "Kite.ly",
+          "spans": []
+        }
+      ],
+      "meta_year": "2018-07-01",
+      "platforms": [
+        {
+          "platform": "Android"
+        },
+        {
+          "platform": "iOS"
+        },
+        {
+          "platform": "Web"
+        }
+      ],
+      "cover": {
+        "tile": {}
+      },
+      "body": [
+        {
+          "slice_type": "text",
+          "slice_label": null,
+          "items": [
+            {}
+          ],
+          "primary": {
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut magna metus. Duis non velit at sapien suscipit consequat quis a dolor. In varius ornare purus, eget varius ipsum scelerisque et. Donec dui neque, suscipit eget libero quis, pellentesque malesuada nunc. Aliquam erat volutpat. Donec sit amet justo blandit, tempor velit at, aliquam erat. Nam tincidunt pulvinar nibh ut ultricies. Morbi a mi eu mauris venenatis dictum eget in leo. Aliquam aliquam convallis metus in sollicitudin. Mauris quis mi vitae orci placerat mollis ac at dolor. Sed malesuada vehicula ultricies. Nam a tincidunt dui, sed pulvinar nulla. Phasellus rhoncus, leo et hendrerit cursus, tellus lorem elementum libero, vel dictum tortor erat non nisl. Nunc sed congue libero, sit amet dignissim nibh.",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Maecenas ullamcorper scelerisque odio sed iaculis. Cras ut augue sed turpis facilisis tincidunt. Suspendisse id aliquam sapien. Etiam dapibus dui nec scelerisque fringilla. Nulla interdum, ex quis accumsan tincidunt, turpis erat tincidunt mi, eget tempus orci nunc sed ante. Curabitur sem purus, congue in nulla vitae, posuere tincidunt lectus. Curabitur iaculis porttitor nulla a maximus.",
+                "spans": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Maecenas fermentum magna libero, ut volutpat ligula accumsan egestas. Etiam purus diam, sollicitudin sed arcu non, ullamcorper dapibus arcu. Nullam at porttitor justo. Integer purus mauris, bibendum ut neque ut, elementum dictum eros. Nam facilisis suscipit interdum. Quisque ultrices interdum nibh, in dictum ipsum semper vel. Pellentesque ac nunc lacinia, sagittis eros nec, iaculis tellus. In eu velit eget ligula molestie blandit. Curabitur lacus mi, viverra ac libero tincidunt, rutrum tempus dolor. Maecenas varius ultrices faucibus.",
+                "spans": []
+              }
+            ]
+          }
+        },
+        {
+          "slice_type": "image_gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "mockup_caption": [],
+              "mockup_image": {
+                "dimensions": {
+                  "width": 3024,
+                  "height": 4032
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/789a0754-6f79-4194-b358-1d4557c73480_IMG_20200829_152948.jpg?auto=compress,format"
+              }
+            },
+            {
+              "mockup_caption": [],
+              "mockup_image": {
+                "dimensions": {
+                  "width": 3024,
+                  "height": 4032
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/98a5b39b-3c23-4f7a-b64f-eac0efa98d9f_IMG_20200829_152758.jpg?auto=compress,format"
+              }
+            }
+          ],
+          "primary": {
+            "mockups_collection": []
+          }
+        },
+        {
+          "slice_type": "quote",
+          "slice_label": null,
+          "items": [
+            {}
+          ],
+          "primary": {
+            "quote": [
+              {
+                "type": "paragraph",
+                "text": "This is my long quote",
+                "spans": []
+              }
+            ],
+            "name_of_the_author": [
+              {
+                "type": "paragraph",
+                "text": "Greg",
+                "spans": []
+              }
+            ],
+            "portrait_author": {
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "slice_type": "related_projects",
+          "slice_label": null,
+          "items": [
+            {
+              "project_link": {
+                "id": "XwyMzRQAACMAs_Hw",
+                "type": "project",
+                "tags": [],
+                "slug": "test-project",
+                "lang": "en-gb",
+                "uid": "kitely",
+                "link_type": "Document",
+                "isBroken": false
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "seo_title": [
+        {
+          "type": "heading1",
+          "text": "My Friendly SEO Title",
+          "spans": []
+        }
+      ],
+      "seo_description": [
+        {
+          "type": "paragraph",
+          "text": "Sed dolor turpis, pharetra ac viverra eget, efficitur sit amet orci. Maecenas vestibulum, arcu et pretium molestie, elit metus viverra lectus, id varius purus ipsum et diam. Sed cursus venenatis elementum.",
+          "spans": []
+        }
+      ],
+      "social_title": [],
+      "cover_linkedin": {
+        "dimensions": {
+          "width": 4032,
+          "height": 3024
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/8006add2-a055-46b2-8025-48543f862301_IMG_20200829_152752.jpg?auto=compress,format"
+      },
+      "cover_twitter": {
+        "dimensions": {
+          "width": 4032,
+          "height": 3024
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/ad2eabc6-194c-43ff-bc9e-3d04d7c63cc9_IMG_20200829_153045.jpg?auto=compress,format"
+      },
+      "dribble_shot": {
+        "dimensions": {
+          "width": 4032,
+          "height": 3024
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/e95993af-9438-4f7c-90eb-bfac460fdc52_IMG_20200829_151928.jpg?auto=compress,format"
+      }
+    }
+  }
+]

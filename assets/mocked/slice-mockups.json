@@ -1,0 +1,91 @@
+{
+  "slice_type": "image_gallery",
+  "slice_label": null,
+  "items": [
+    {
+      "mockup_caption": [
+        {
+          "type": "paragraph",
+          "text": "My laptop mockup",
+          "spans": []
+        }
+      ],
+      "mockup_type": "desktop",
+      "mockup_image": {
+        "dimensions": {
+          "width": 2011,
+          "height": 1171
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/67edbe4b-0be8-4d42-8d29-9c7ffcbd3cd7_macbook.png?auto=compress,format"
+      }
+    },
+    {
+      "mockup_caption": [
+        {
+          "type": "paragraph",
+          "text": "My Android mockup",
+          "spans": []
+        }
+      ],
+      "mockup_type": "mobile",
+      "mockup_image": {
+        "dimensions": {
+          "width": 421,
+          "height": 858
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/62af8abf-694d-4f19-b49f-db12ff65bc21_pixel.png?auto=compress,format"
+      }
+    },
+    {
+      "mockup_caption": [
+        {
+          "type": "paragraph",
+          "text": "My tablet mockup",
+          "spans": []
+        }
+      ],
+      "mockup_type": "tablet",
+      "mockup_image": {
+        "dimensions": {
+          "width": 657,
+          "height": 908
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/f9f448c4-a09c-4eb2-a66a-76f047bb8f4d_ipad.png?auto=compress,format"
+      }
+    },
+    {
+      "mockup_caption": [
+        {
+          "type": "paragraph",
+          "text": "My default mockup",
+          "spans": []
+        }
+      ],
+      "mockup_type": "default",
+      "mockup_image": {
+        "dimensions": {
+          "width": 423,
+          "height": 858
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/bf02108d-cc30-4061-b986-5b1d2ae7e3e2_iphone.png?auto=compress,format"
+      }
+    }
+  ],
+  "primary": {
+    "mockups_collection": [
+      {
+        "type": "heading2",
+        "text": "Some mockups 1",
+        "spans": []
+      }
+    ]
+  }
+}
