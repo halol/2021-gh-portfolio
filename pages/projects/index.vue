@@ -8,24 +8,10 @@
 export default {
   data() {
     return {
-      projects: [],
-      documents: [],
       loading: false,
     }
   },
-  methods: {
-    async getProjects() {
-      const response = await this.$axios.$get('https://5f99f6f99d94640016f703e7.mockapi.io/projects');
-      this.projects = response;
-      console.log(response);
-    }
-  },
-  mounted: function () {
 
-  },
-  beforeMount() {
-    this.getProjects();
-  },
   async asyncData({
     $prismic,
     error

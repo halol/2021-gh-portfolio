@@ -14,7 +14,6 @@
         </p>
         <widget-platforms :platforms="document.platforms"></widget-platforms>
       </div>
-
     </div>
 
     <div class="offset-cover">
@@ -34,11 +33,12 @@ export default {
   async asyncData({
     $prismic,
     params,
+    route,
     error
   }) {
     try {
       // Query to get post content
-      const document = (await $prismic.api.getByUID('project', 'kitely')).data
+      const document = (await $prismic.api.getByUID('project', params.uid)).data
       return {
         // Set slices as variable
         document: document

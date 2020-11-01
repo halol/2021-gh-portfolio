@@ -32,6 +32,7 @@ export default {
 
   background: linear-gradient(135deg, #fce5cd 0%, $primary 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   // @include theme-dark {
   //   opacity: 1;

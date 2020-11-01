@@ -1,5 +1,6 @@
 <template>
 <div class="project-tile" :style="{ background: project.data.key_color }">
+
   <div class="project-tile__description">
     <h5 class="label-company">{{project.data.company[0].text}}</h5>
     <div class="project-tile__description-heading">
@@ -10,7 +11,8 @@
         {{project.data.project_intro[0].text}}
       </p>
       <widget-platforms :platforms="project.data.platforms"></widget-platforms>
-      <nuxt-link :to="computeLink" class="button button-bright">Open project</nuxt-link>
+      {{project.uid}}
+      <nuxt-link :to="link" class="button button-bright">Open project</nuxt-link>
     </div>
 
   </div>
@@ -22,20 +24,24 @@
 </template>
 
 <script>
+import LinkResolver from "~/plugins/link-resolver.js"
 export default {
   props: ["project"],
   data() {
     return {
-      color: "#1774FF",
-      platforms: ["iOS", "Android", "Web"]
+      link: '',
     };
+  },
+  created() {
+    this.link = LinkResolver(this.project);
   },
   computed: {
     projectColor() {
       return this.color;
     },
     computeLink() {
-      return this.$route.path + '/' + this.project.uid;
+      //return this.$route.path + '/' + this.project.uid;
+      return this.project.uid;
     }
   }
 };

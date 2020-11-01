@@ -2,7 +2,7 @@
 <div class="slice-screenshots">
   <figure v-for="item in slice.items" :key="item.id" class="card screenshot">
     <img class="screenshot_img" :src="item.screenshot_image.url" :alt="item.screenshot_caption.text">
-    <figcaption class="fig-caption">
+    <figcaption class="fig-caption" v-show="item.screenshot_caption">
       {{ $prismic.asText(item.screenshot_caption) }}
     </figcaption>
   </figure>
