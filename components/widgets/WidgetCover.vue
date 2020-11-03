@@ -2,7 +2,7 @@
 <div class="mockup-floater">
   <template v-for="slice in slices">
     <template v-if="slice.slice_type === 'image_gallery'">
-      <img v-for="(mockup, index) in slice.items" :key="index" :src="mockup.mockup_image.url" alt="Mockup" class="mockup-image animated fadeInRight" />
+      <img v-for=" (mockup, index) in slice.items" :key="index" :src="mockup.mockup_image.url" alt="Mockup" class="mockup-image animated fadeInRight" />
     </template>
   </template>
 
@@ -12,6 +12,7 @@
 <script>
 export default {
   props: ['slices'],
+
 }
 </script>
 
