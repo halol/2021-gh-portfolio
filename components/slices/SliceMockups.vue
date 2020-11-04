@@ -3,25 +3,25 @@
   <div class="mockup" v-for="item in slice.items" :key="item.id">
     <template v-if="item.mockup_type === 'mobile'" name="mockup-mobile">
       <div class="mockup-container mockup-mobile">
-        <img class="mockup_image" :src="item.mockup_image.url" :alt="item.mockup_caption[0].text">
+        <img class="mockup_image" :src="item.mockup_image.url" :alt="renderAlt">
 
       </div>
     </template>
     <template v-if="item.mockup_type === 'desktop'" name="mockup-mobile">
       <div class="mockup-container mockup-desktop">
-        <img class="mockup_image" :src="item.mockup_image.url" :alt="item.mockup_caption[0].text">
+        <img class="mockup_image" :src="item.mockup_image.url" :alt="renderAlt">
 
       </div>
     </template>
     <template v-if="item.mockup_type === 'tablet'" name="mockup-mobile">
       <div class="mockup-container mockup-tablet">
-        <img class="mockup_image" :src="item.mockup_image.url" :alt="item.mockup_caption[0].text">
+        <img class="mockup_image" :src="item.mockup_image.url" :alt="renderAlt">
 
       </div>
     </template>
     <template v-if="item.mockup_type === 'default'" name="mockup-mobile">
       <div class="mockup-container mockup-default">
-        <img class="mockup_image" :src="item.mockup_image.url" :alt="item.mockup_caption[0].text">
+        <img class="mockup_image" :src="item.mockup_image.url" :alt="renderAlt">
       </div>
     </template>
   </div>
@@ -30,7 +30,13 @@
 
 <script>
 export default {
-  props: ['slice']
+  props: ['slice'],
+  computed: {
+    renderAlt() {
+      return "Alt"
+      // item.mockup_caption[0].text
+    }
+  }
 }
 </script>
 

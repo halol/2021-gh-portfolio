@@ -1,7 +1,7 @@
 <template>
 <div class="slice-screenshots">
   <figure v-for="item in slice.items" :key="item.id" class="card screenshot">
-    <img class="screenshot_img" :src="item.screenshot_image.url" :alt="item.screenshot_caption.text">
+    <img class="screenshot_img" :src="item.screenshot_image.url" :alt="item.screenshot_caption.text" draggable="false">
     <figcaption class="fig-caption" v-show="item.screenshot_caption">
       {{ $prismic.asText(item.screenshot_caption) }}
     </figcaption>
@@ -12,23 +12,44 @@
 <script>
 // item.screenshot_image.url
 export default {
-  props: ['slice']
+  props: ['slice'],
+  methods: {
+    // openLightbox() {
+    //   this.$emit('toggle-lightbox', true);
+    //   console.log("Emitttinggggngngngn");
+    // },
+    openLightbox() {
+      //this.$refs.lightbox.open();
+    }
+  }
 }
 </script>
 
 <style lang="scss">
 .slice-screenshots {
-  max-width: 50em;
+  max-width: 60%;
   margin: 0 auto;
 }
 
 .screenshot {
   overflow: hidden;
+  position: relative;
+}
+
+.button-expand {
+  position: absolute;
+  top: 1em;
+  right: 1em;
 }
 
 .screenshot_img {
   width: 100%;
   display: block;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .fig-caption {
@@ -40,7 +61,7 @@ export default {
     margin-bottom: 3em;
   }
 
-  background: color($theme-light, "screenshot");
+  background: $screenshot-bg;
 
   @include theme-dark {
     background: color($theme-dark, "screenshot");
@@ -55,12 +76,4 @@ export default {
     bcolor: color($theme-dark, "muted");
   }
 }
-
-// .slice-screenshots {
-//   background: color($theme-light, "bg-card");
-
-//   @include theme-dark {
-//     background: color($theme-dark, "bg-card");
-//   }
-// }
 </style>

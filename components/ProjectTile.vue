@@ -2,16 +2,15 @@
 <div class="project-tile" :style="{ background: project.data.key_color }">
 
   <div class="project-tile__description">
-    <h5 class="label-company">{{project.data.company[0].text}}</h5>
+    <h5 class="label-company">h5 {{project.data.company[0].text}}</h5>
     <div class="project-tile__description-heading">
 
-      <h2 class="label-title">{{ project.data.project_name[0].text }}</h2>
+      <h2 class="label-title">h2 {{ project.data.project_name[0].text }}</h2>
 
       <p class="label-description">
         {{project.data.project_intro[0].text}}
       </p>
       <widget-platforms :platforms="project.data.platforms"></widget-platforms>
-      {{project.uid}}
       <nuxt-link :to="link" class="button button-bright">Open project</nuxt-link>
     </div>
 
@@ -102,22 +101,6 @@ export default {
     flex-direction: column;
     min-height: auto;
     padding: 1em;
-  }
-}
-
-.label-company {
-  margin: 0;
-}
-
-.label-title {
-  margin: 0;
-}
-
-.label-description {
-  margin-top: 1em;
-
-  @include sm {
-    //@debugdisplay: none;
   }
 }
 
