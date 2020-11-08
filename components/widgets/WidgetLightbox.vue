@@ -1,18 +1,22 @@
 <template>
-<div class="overlay widget-lightbox">
-  <div class="lightbox-navigation">
-    <button>Prev</button>
-    <button>Next</button>
-    <button>Close</button>
+  <div class="overlay widget-lightbox">
+    <div class="lightbox-navigation">
+      <button>Prev</button>
+      <button>Next</button>
+      <button>Close</button>
+    </div>
+    <div class="lightbox-media-center">
+      <img
+        src="http://placekitten.com/400/400"
+        alt="Kittens"
+        draggable="false"
+      />
+    </div>
   </div>
-  <div class="lightbox-media-center">
-    <img src="http://placekitten.com/400/400" alt="Kittens">
-  </div>
-</div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style lang="scss">

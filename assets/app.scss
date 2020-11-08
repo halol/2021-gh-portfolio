@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
 }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body,
 html {
   height: 100%;
@@ -22,10 +29,10 @@ body {
   background: color($theme-light, "bg-body");
   color: color($theme-light, "text-body");
 
-  @include theme-dark {
-    background: color($theme-dark, "bg-body");
-    color: color($theme-dark, "text-body");
-  }
+  // @include theme-dark {
+  //   background: color($theme-dark, "bg-body");
+  //   color: color($theme-dark, "text-body");
+  // }
 
   @include xxl {
     //padding: 2em 10em;

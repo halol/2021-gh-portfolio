@@ -1,7 +1,7 @@
 .container {
-  width: 100%;
-  @include xxl {
-    max-width: 70vw;
-    margin: 0 auto;
+  width: calc(100vw - calc(96px * 2));
+  margin: 0 auto;
+  @include sm {
+    width: calc(100vw - calc(16px * 2));
   }
 }

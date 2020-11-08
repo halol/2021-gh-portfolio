@@ -1,21 +1,22 @@
 <template>
-<div class="projects-page">
-  <project-tile v-for="project in documents" :key="project.id" :project="project"></project-tile>
-</div>
+  <div class="projects-page">
+    <project-tile
+      v-for="project in documents"
+      :key="project.id"
+      :project="project"
+    ></project-tile>
+  </div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      loading: false,
-    }
+      loading: false
+    };
   },
 
-  async asyncData({
-    $prismic,
-    error
-  }) {
+  async asyncData({ $prismic, error }) {
     try {
       const projects = await $prismic.api.query(
         $prismic.predicates.at("document.type", "project")
@@ -23,17 +24,15 @@ export default {
 
       return {
         documents: projects.results
-      }
+      };
     } catch (e) {
       error({
         statusCode: 404,
         message: "Page not found"
       });
     }
-  },
-}
+  }
+};
 </script>
 
-<style>
-
-</style>
+<style lang="scss"></style>

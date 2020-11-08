@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "cross-env NUXT_HOST=0.0.0.0 NUXT_PORT=3333 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
@@ -14,11 +14,16 @@
     "@nuxtjs/prismic": "^1.2.4",
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "pattern.css": "^1.0.0",
+    "vue-horizontal-scroll": "^0.2.4",
+    "vue-kinesis": "^1.1.5",
+    "vuescroll": "^4.16.1"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/tailwindcss": "^3.2.0",
+    "cross-env": "^7.0.2",
     "fibers": "^5.0.0",
     "sass": "^1.27.0",
     "sass-loader": "^10.0.4"

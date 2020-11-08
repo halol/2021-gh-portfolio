@@ -1,5 +1,7 @@
-$font-family: "Poppins", sans-serif;
-
+$font-family: "Roboto", sans-serif;
+$font-family-mono: "Roboto Mono", sans-serif;
+$font-family-headers: "Poppins", sans-serif;
+$font-family-buttons: $font-family-headers;
 // Colors
 
 $primary: #ff6b17;
@@ -26,7 +28,7 @@ $black: #0d1d35;
 $grey-light: #f7f8fc;
 $grey-medium: #5a607d;
 
-// Responsivenes
+// Responsiveness
 
 // Small tablets and large smartphones (landscape view)
 $screen-sm-min: 576px;
@@ -99,5 +101,19 @@ $padding: (
 }
 
 $border-radius: 1rem;
+$border-radius-small: $border-radius * 1.1;
 $border-radius-medium: $border-radius * 1.5;
 $border-radius-large: $border-radius * 2;
+
+.hidden-sm {
+  @include sm {
+    display: none;
+    visibility: hidden;
+  }
+}
+.hidden-md {
+  @include md {
+    display: none;
+    visibility: hidden;
+  }
+}

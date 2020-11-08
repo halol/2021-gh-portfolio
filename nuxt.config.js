@@ -17,6 +17,7 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '@/assets/app.scss',
+    '@/assets/coolicons.css',
   ],
 
   styleResources: {
@@ -26,7 +27,7 @@ export default {
         '~/assets/type.scss',
         '~/assets/buttons.scss',
         '~/assets/layout.scss',
-    ]
+    ],
 },
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -49,7 +50,7 @@ export default {
     '@nuxtjs/pwa',
     "@nuxtjs/prismic",
     '@nuxtjs/style-resources',
-    '@neneos/nuxt-animate.css'
+    '@neneos/nuxt-animate.css',
   ],
 
   prismic: {

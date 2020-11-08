@@ -1,7 +1,7 @@
 <template>
-<h1 class="page-title animated fadeInDownBig">
-  <slot></slot>
-</h1>
+  <h1 class="page-title animated fadeInDownBig">
+    <slot></slot>
+  </h1>
 </template>
 
 <script>
@@ -13,7 +13,7 @@ export default {
       return glitter;
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -24,7 +24,7 @@ export default {
   transition: all 300ms ease;
   will-change: all;
   left: -2rem;
-  top: -.4rem;
+  top: -0.4rem;
   position: fixed;
   font-size: 20em;
   opacity: 1;
@@ -34,20 +34,6 @@ export default {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  // @include theme-dark {
-  //   opacity: 1;
-  //   //-webkit-text-stroke: 2px color($theme-dark, "text-body");
-  //   color: color($theme-dark, "bg-body");
-  //   // background: -webkit-linear-gradient($primary, $secondary);
-  //   background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
-  //   -webkit-background-clip: text;
-  //   -webkit-text-fill-color: transparent;
-  // }
-
-  // animation-name: animTitle;
-  // animation-duration: 2s;
-  // animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-  // animation-fill-mode: forwards;
 }
 
 @keyframes animTitle {
@@ -57,7 +43,7 @@ export default {
   }
 
   to {
-    opacity: .2;
+    opacity: 0.2;
   }
 }
 </style>

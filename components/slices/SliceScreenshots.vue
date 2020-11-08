@@ -1,18 +1,25 @@
 <template>
-<div class="slice-screenshots">
-  <figure v-for="item in slice.items" :key="item.id" class="card screenshot">
-    <img class="screenshot_img" :src="item.screenshot_image.url" :alt="item.screenshot_caption.text" draggable="false">
-    <figcaption class="fig-caption" v-show="item.screenshot_caption">
-      {{ $prismic.asText(item.screenshot_caption) }}
-    </figcaption>
-  </figure>
-</div>
+  <div class="slice-screenshots">
+    <figure v-for="item in slice.items" :key="item.id" class="card screenshot">
+      <img
+        class="screenshot_img"
+        :src="item.screenshot_image.url"
+        :alt="item.screenshot_caption.text"
+        draggable="false"
+      />
+      <figcaption class="fig-caption" v-show="item.screenshot_caption">
+        {{ $prismic.asText(item.screenshot_caption) }}
+      </figcaption>
+    </figure>
+  </div>
 </template>
 
 <script>
 // item.screenshot_image.url
+
+// TODO: a moze tutaj dac widgeta i przekazywac $emit child > partent > child
 export default {
-  props: ['slice'],
+  props: ["slice"],
   methods: {
     // openLightbox() {
     //   this.$emit('toggle-lightbox', true);
@@ -22,18 +29,22 @@ export default {
       //this.$refs.lightbox.open();
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
 .slice-screenshots {
-  max-width: 60%;
-  margin: 0 auto;
+  // max-width: 60%;
+  // margin: 0 auto;
 }
 
 .screenshot {
   overflow: hidden;
   position: relative;
+  padding: 24px;
+  @include sm {
+    padding: 0.5em;
+  }
 }
 
 .button-expand {
@@ -52,20 +63,15 @@ export default {
   user-select: none;
 }
 
-.fig-caption {
-  padding: padding("normal") padding("small");
-}
-
 .screenshot {
   &:not(:last-child) {
     margin-bottom: 3em;
+    @include sm {
+      margin-bottom: 1em;
+    }
   }
 
   background: $screenshot-bg;
-
-  @include theme-dark {
-    background: color($theme-dark, "screenshot");
-  }
 }
 
 .fig-caption {
