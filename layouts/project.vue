@@ -1,18 +1,16 @@
 <template>
-<div>
-
-  <Nuxt />
-  <app-footer></app-footer>
-</div>
+  <div class="app-flex">
+    <div class="nav-flex">
+      <app-navigation></app-navigation>
+    </div>
+    <div class="content-flex">
+      <Nuxt />
+    </div>
+  </div>
 </template>
 
 <script>
-import "~/components/AppNavigation";
-export default {
-
-}
+export default {};
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

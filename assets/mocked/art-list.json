@@ -1,0 +1,2032 @@
+[
+  {
+    "id": "XwjGzRQAACQAo3Ni",
+    "uid": "abstract-cityscapes",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XwjGzRQAACQAo3Ni%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-07-10T19:51:44+0000",
+    "last_publication_date": "2020-08-30T12:05:31+0000",
+    "slugs": [
+      "abstract-cityscape"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Abstract Cityscape",
+          "spans": []
+        }
+      ],
+      "series": [
+        {
+          "type": "paragraph",
+          "text": "Abstract",
+          "spans": []
+        }
+      ],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/878fa619-1279-4184-af42-c441bc818953_Abstract+City+Composition.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/878fa619-1279-4184-af42-c441bc818953_Abstract+City+Composition.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/878fa619-1279-4184-af42-c441bc818953_Abstract+City+Composition.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/878fa619-1279-4184-af42-c441bc818953_Abstract+City+Composition.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "One of the painting with a set of high quality hues straight from the tube. I had no idea what will come up from this painting but I love having it in my living room on the wall. I'm looking for a new owner for this relaxing painting.",
+          "spans": []
+        }
+      ],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/8dc0004b-6248-4f64-add5-64fa67babb82_IMG_20200829_151425.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/8dc0004b-6248-4f64-add5-64fa67babb82_IMG_20200829_151425.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/8dc0004b-6248-4f64-add5-64fa67babb82_IMG_20200829_151425.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/8dc0004b-6248-4f64-add5-64fa67babb82_IMG_20200829_151425.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/1ed95f45-d8d5-4b77-b380-1b3f237107eb_IMG_20200829_151439.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/1ed95f45-d8d5-4b77-b380-1b3f237107eb_IMG_20200829_151439.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/1ed95f45-d8d5-4b77-b380-1b3f237107eb_IMG_20200829_151439.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/1ed95f45-d8d5-4b77-b380-1b3f237107eb_IMG_20200829_151439.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/86bd6379-5182-49d3-ac39-0bdf71af7c11_00000IMG_00000_BURST20200829151402908_COVER.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/86bd6379-5182-49d3-ac39-0bdf71af7c11_00000IMG_00000_BURST20200829151402908_COVER.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/86bd6379-5182-49d3-ac39-0bdf71af7c11_00000IMG_00000_BURST20200829151402908_COVER.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/86bd6379-5182-49d3-ac39-0bdf71af7c11_00000IMG_00000_BURST20200829151402908_COVER.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Available",
+      "price": 300,
+      "medium": "Acrylic",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "60x60x2,5",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "X0ubqBAAAPvZ4tkh",
+    "uid": "abstract-03",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X0ubqBAAAPvZ4tkh%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-08-30T12:36:10+0000",
+    "last_publication_date": "2020-08-31T10:49:06+0000",
+    "slugs": [
+      "abstract-03"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Abstract 03",
+          "spans": []
+        }
+      ],
+      "series": [],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/9d80e9be-321a-44e5-baab-6ec083ff31b8_Abstract+Explosion+01.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/9d80e9be-321a-44e5-baab-6ec083ff31b8_Abstract+Explosion+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/9d80e9be-321a-44e5-baab-6ec083ff31b8_Abstract+Explosion+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/9d80e9be-321a-44e5-baab-6ec083ff31b8_Abstract+Explosion+01.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/df94733a-1595-4797-848f-7e419cc8aefc_IMG_20200829_153145.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/df94733a-1595-4797-848f-7e419cc8aefc_IMG_20200829_153145.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/df94733a-1595-4797-848f-7e419cc8aefc_IMG_20200829_153145.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/df94733a-1595-4797-848f-7e419cc8aefc_IMG_20200829_153145.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/b2c93437-9e32-44ad-80f4-70d6cd481b8d_IMG_20200829_153142.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/b2c93437-9e32-44ad-80f4-70d6cd481b8d_IMG_20200829_153142.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/b2c93437-9e32-44ad-80f4-70d6cd481b8d_IMG_20200829_153142.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/b2c93437-9e32-44ad-80f4-70d6cd481b8d_IMG_20200829_153142.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/9a76fc4c-f014-45ee-b332-f0ec00cd7d90_IMG_20200829_153153.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/9a76fc4c-f014-45ee-b332-f0ec00cd7d90_IMG_20200829_153153.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/9a76fc4c-f014-45ee-b332-f0ec00cd7d90_IMG_20200829_153153.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/9a76fc4c-f014-45ee-b332-f0ec00cd7d90_IMG_20200829_153153.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Reserved",
+      "price": 200,
+      "medium": "Oil",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "50 x 50 x 2",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "X0ubSRAAAJPk4td4",
+    "uid": "seasons-autumn",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X0ubSRAAAJPk4td4%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-08-30T12:27:57+0000",
+    "last_publication_date": "2020-08-30T12:27:57+0000",
+    "slugs": [
+      "abstract-seasons---autumn"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Abstract Seasons - Autumn",
+          "spans": []
+        }
+      ],
+      "series": [
+        {
+          "type": "paragraph",
+          "text": "Seasons",
+          "spans": []
+        }
+      ],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/c8de9213-ab29-4b99-b59f-bbc57253047b_Abstract+Seasons+Autumn.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/c8de9213-ab29-4b99-b59f-bbc57253047b_Abstract+Seasons+Autumn.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/c8de9213-ab29-4b99-b59f-bbc57253047b_Abstract+Seasons+Autumn.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/c8de9213-ab29-4b99-b59f-bbc57253047b_Abstract+Seasons+Autumn.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/ad2eabc6-194c-43ff-bc9e-3d04d7c63cc9_IMG_20200829_153045.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/ad2eabc6-194c-43ff-bc9e-3d04d7c63cc9_IMG_20200829_153045.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/ad2eabc6-194c-43ff-bc9e-3d04d7c63cc9_IMG_20200829_153045.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/ad2eabc6-194c-43ff-bc9e-3d04d7c63cc9_IMG_20200829_153045.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 3024,
+                  "height": 4032
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/0cd8168b-2965-4a1f-8a10-9dc94322a11b_IMG_20200829_153051.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/0cd8168b-2965-4a1f-8a10-9dc94322a11b_IMG_20200829_153051.jpg?auto=compress,format&amp;rect=0,508,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/0cd8168b-2965-4a1f-8a10-9dc94322a11b_IMG_20200829_153051.jpg?auto=compress,format&amp;rect=0,504,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/0cd8168b-2965-4a1f-8a10-9dc94322a11b_IMG_20200829_153051.jpg?auto=compress,format&amp;rect=0,505,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/3071bbaf-b68a-420c-9f93-8c21039ab97b_IMG_20200829_153042.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/3071bbaf-b68a-420c-9f93-8c21039ab97b_IMG_20200829_153042.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/3071bbaf-b68a-420c-9f93-8c21039ab97b_IMG_20200829_153042.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/3071bbaf-b68a-420c-9f93-8c21039ab97b_IMG_20200829_153042.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Sold",
+      "price": 150,
+      "medium": "Oil",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "50 x 40 x 2",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "XwyH3hQAACUAs96D",
+    "uid": "abstract-patches",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XwyH3hQAACUAs96D%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-07-13T16:12:17+0000",
+    "last_publication_date": "2020-08-30T12:03:36+0000",
+    "slugs": [
+      "abstract-patches"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Abstract Patches",
+          "spans": []
+        }
+      ],
+      "series": [
+        {
+          "type": "paragraph",
+          "text": "Abstract",
+          "spans": []
+        }
+      ],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/6c13c60a-9554-4093-a1ff-656fbb872330_Abstract+Patchwork+Tiles.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/6c13c60a-9554-4093-a1ff-656fbb872330_Abstract+Patchwork+Tiles.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/6c13c60a-9554-4093-a1ff-656fbb872330_Abstract+Patchwork+Tiles.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/6c13c60a-9554-4093-a1ff-656fbb872330_Abstract+Patchwork+Tiles.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "I never know what's going to come up from my paintings. I like to tease your imagination and find regions of the canvas that makes you feel happy, or a bit anxious, surprised, confused. This one reminds of the condensed areas of the city (Barcelona), or patchwork of agriculture fields in the country side.",
+          "spans": []
+        }
+      ],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/730c5037-c175-443e-9cfd-d7731289820e_IMG_20200713_180736.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/730c5037-c175-443e-9cfd-d7731289820e_IMG_20200713_180736.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/730c5037-c175-443e-9cfd-d7731289820e_IMG_20200713_180736.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/730c5037-c175-443e-9cfd-d7731289820e_IMG_20200713_180736.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/720f072e-97ec-42f6-9656-371d9d0ddef6_IMG_20200713_180742.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/720f072e-97ec-42f6-9656-371d9d0ddef6_IMG_20200713_180742.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/720f072e-97ec-42f6-9656-371d9d0ddef6_IMG_20200713_180742.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/720f072e-97ec-42f6-9656-371d9d0ddef6_IMG_20200713_180742.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/f291e02b-bbf8-4b87-8158-c4778771ce2b_IMG_20200713_180731.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/f291e02b-bbf8-4b87-8158-c4778771ce2b_IMG_20200713_180731.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/f291e02b-bbf8-4b87-8158-c4778771ce2b_IMG_20200713_180731.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/f291e02b-bbf8-4b87-8158-c4778771ce2b_IMG_20200713_180731.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Available",
+      "price": 300,
+      "medium": "Oil",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "50x50x4 cm",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "X0uWkhAAAGKj4sKc",
+    "uid": "abstract-landscape",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X0uWkhAAAGKj4sKc%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-08-30T12:07:50+0000",
+    "last_publication_date": "2020-08-30T12:07:50+0000",
+    "slugs": [
+      "abstract-landscape-1"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Abstract Landscape 1",
+          "spans": []
+        }
+      ],
+      "series": [],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": "Abstract landscape 1",
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/6b409ab6-9fcb-47e3-9583-435d355c893b_Abstract+Landscape+01.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/6b409ab6-9fcb-47e3-9583-435d355c893b_Abstract+Landscape+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/6b409ab6-9fcb-47e3-9583-435d355c893b_Abstract+Landscape+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/6b409ab6-9fcb-47e3-9583-435d355c893b_Abstract+Landscape+01.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "TBD",
+          "spans": []
+        }
+      ],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/74eab5f1-8e34-45fe-a697-911d4c157b8f_IMG_20200829_151521.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/74eab5f1-8e34-45fe-a697-911d4c157b8f_IMG_20200829_151521.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/74eab5f1-8e34-45fe-a697-911d4c157b8f_IMG_20200829_151521.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/74eab5f1-8e34-45fe-a697-911d4c157b8f_IMG_20200829_151521.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/39eef01d-7405-4e58-8478-53b962a52a77_IMG_20200829_151528.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/39eef01d-7405-4e58-8478-53b962a52a77_IMG_20200829_151528.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/39eef01d-7405-4e58-8478-53b962a52a77_IMG_20200829_151528.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/39eef01d-7405-4e58-8478-53b962a52a77_IMG_20200829_151528.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Available",
+      "price": 200,
+      "medium": "Oil",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "50 x 50 x 2",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "X0udKBAAAGKj4t_b",
+    "uid": "landscapes-sunset",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X0udKBAAAGKj4t_b%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-08-30T12:36:10+0000",
+    "last_publication_date": "2020-08-30T12:36:10+0000",
+    "slugs": [
+      "sunset-landscape"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Sunset Landscape",
+          "spans": []
+        }
+      ],
+      "series": [
+        {
+          "type": "paragraph",
+          "text": "Landscapes",
+          "spans": []
+        }
+      ],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/0d30d295-33a0-4fc1-8953-9eaa4566db7f_Sunset+01.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/0d30d295-33a0-4fc1-8953-9eaa4566db7f_Sunset+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/0d30d295-33a0-4fc1-8953-9eaa4566db7f_Sunset+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/0d30d295-33a0-4fc1-8953-9eaa4566db7f_Sunset+01.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/c75e4106-726f-4552-ad82-76734f185d4a_IMG_20200829_152733.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/c75e4106-726f-4552-ad82-76734f185d4a_IMG_20200829_152733.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/c75e4106-726f-4552-ad82-76734f185d4a_IMG_20200829_152733.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/c75e4106-726f-4552-ad82-76734f185d4a_IMG_20200829_152733.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/c75e4106-726f-4552-ad82-76734f185d4a_IMG_20200829_152733.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/c75e4106-726f-4552-ad82-76734f185d4a_IMG_20200829_152733.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/c75e4106-726f-4552-ad82-76734f185d4a_IMG_20200829_152733.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/c75e4106-726f-4552-ad82-76734f185d4a_IMG_20200829_152733.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 3024,
+                  "height": 4032
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/98a5b39b-3c23-4f7a-b64f-eac0efa98d9f_IMG_20200829_152758.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/98a5b39b-3c23-4f7a-b64f-eac0efa98d9f_IMG_20200829_152758.jpg?auto=compress,format&amp;rect=0,508,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/98a5b39b-3c23-4f7a-b64f-eac0efa98d9f_IMG_20200829_152758.jpg?auto=compress,format&amp;rect=0,504,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/98a5b39b-3c23-4f7a-b64f-eac0efa98d9f_IMG_20200829_152758.jpg?auto=compress,format&amp;rect=0,505,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Available",
+      "price": 100,
+      "medium": "Oil",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": []
+    }
+  },
+  {
+    "id": "X0uZIBAAAGKj4s3q",
+    "uid": "50-x-70-x-4",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X0uZIBAAAGKj4s3q%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-08-30T12:18:44+0000",
+    "last_publication_date": "2020-08-30T12:18:44+0000",
+    "slugs": [
+      "abstract-pathways-01"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Abstract Pathways 01",
+          "spans": []
+        }
+      ],
+      "series": [
+        {
+          "type": "paragraph",
+          "text": "Pathways",
+          "spans": []
+        }
+      ],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/172c2eac-463d-4223-8c12-89bb7f4f942d_Abstract+Pathways+01.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/172c2eac-463d-4223-8c12-89bb7f4f942d_Abstract+Pathways+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/172c2eac-463d-4223-8c12-89bb7f4f942d_Abstract+Pathways+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/172c2eac-463d-4223-8c12-89bb7f4f942d_Abstract+Pathways+01.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/41516b1b-1d8a-4fd6-b472-2ca8d40f7858_IMG_20200829_151910.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/41516b1b-1d8a-4fd6-b472-2ca8d40f7858_IMG_20200829_151910.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/41516b1b-1d8a-4fd6-b472-2ca8d40f7858_IMG_20200829_151910.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/41516b1b-1d8a-4fd6-b472-2ca8d40f7858_IMG_20200829_151910.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/e95993af-9438-4f7c-90eb-bfac460fdc52_IMG_20200829_151928.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/e95993af-9438-4f7c-90eb-bfac460fdc52_IMG_20200829_151928.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/e95993af-9438-4f7c-90eb-bfac460fdc52_IMG_20200829_151928.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/e95993af-9438-4f7c-90eb-bfac460fdc52_IMG_20200829_151928.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Available",
+      "price": 500,
+      "medium": "Mixed",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "50 x 70 x 4",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "X0uXqhAAAKHG4sd4",
+    "uid": "abstract-blob",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X0uXqhAAAKHG4sd4%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-08-30T12:12:32+0000",
+    "last_publication_date": "2020-08-30T12:12:32+0000",
+    "slugs": [
+      "abstract-blob"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Abstract Blob",
+          "spans": []
+        }
+      ],
+      "series": [],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/5a91bcba-9321-4173-8bde-ab38d95a6501_Abstract+Space+Blob.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/5a91bcba-9321-4173-8bde-ab38d95a6501_Abstract+Space+Blob.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/5a91bcba-9321-4173-8bde-ab38d95a6501_Abstract+Space+Blob.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/5a91bcba-9321-4173-8bde-ab38d95a6501_Abstract+Space+Blob.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/8d226f39-d327-43f4-8e45-86e97ea332c9_IMG_20200829_151746.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/8d226f39-d327-43f4-8e45-86e97ea332c9_IMG_20200829_151746.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/8d226f39-d327-43f4-8e45-86e97ea332c9_IMG_20200829_151746.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/8d226f39-d327-43f4-8e45-86e97ea332c9_IMG_20200829_151746.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/c7a92a8c-2de7-43f1-9702-cd727dd81d26_IMG_20200829_151742.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/c7a92a8c-2de7-43f1-9702-cd727dd81d26_IMG_20200829_151742.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/c7a92a8c-2de7-43f1-9702-cd727dd81d26_IMG_20200829_151742.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/c7a92a8c-2de7-43f1-9702-cd727dd81d26_IMG_20200829_151742.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Available",
+      "price": 150,
+      "medium": "Oil",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "60 x 40 x 4",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "X0uW6hAAAGKj4sQn",
+    "uid": "60-x-60-x-4",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X0uW6hAAAGKj4sQn%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-08-30T12:09:20+0000",
+    "last_publication_date": "2020-08-30T12:09:20+0000",
+    "slugs": [
+      "abstract-composition-1"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Abstract Composition 1",
+          "spans": []
+        }
+      ],
+      "series": [],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/1757488c-994b-4ecc-926a-b830c1a75888_Abstract+Composition+02.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/1757488c-994b-4ecc-926a-b830c1a75888_Abstract+Composition+02.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/1757488c-994b-4ecc-926a-b830c1a75888_Abstract+Composition+02.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/1757488c-994b-4ecc-926a-b830c1a75888_Abstract+Composition+02.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/a5abf96d-a95d-4dd6-a411-d02a9fa81e22_IMG_20200829_152546.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/a5abf96d-a95d-4dd6-a411-d02a9fa81e22_IMG_20200829_152546.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/a5abf96d-a95d-4dd6-a411-d02a9fa81e22_IMG_20200829_152546.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/a5abf96d-a95d-4dd6-a411-d02a9fa81e22_IMG_20200829_152546.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/a5abf96d-a95d-4dd6-a411-d02a9fa81e22_IMG_20200829_152546.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/a5abf96d-a95d-4dd6-a411-d02a9fa81e22_IMG_20200829_152546.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/a5abf96d-a95d-4dd6-a411-d02a9fa81e22_IMG_20200829_152546.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/a5abf96d-a95d-4dd6-a411-d02a9fa81e22_IMG_20200829_152546.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Available",
+      "price": 150,
+      "medium": "Acrylic",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "60 x 60 x 4",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "X0ufZhAAAJPk4usm",
+    "uid": "nude-in-swimming-pool",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X0ufZhAAAJPk4usm%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-08-30T12:45:29+0000",
+    "last_publication_date": "2020-08-30T12:45:29+0000",
+    "slugs": [
+      "nude-in-swimming-pool"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Nude in Swimming Pool",
+          "spans": []
+        }
+      ],
+      "series": [],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/196c5387-1f42-4601-adbb-3d176bb3fa78_Model+Swimming+Pool+01.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/196c5387-1f42-4601-adbb-3d176bb3fa78_Model+Swimming+Pool+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/196c5387-1f42-4601-adbb-3d176bb3fa78_Model+Swimming+Pool+01.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/196c5387-1f42-4601-adbb-3d176bb3fa78_Model+Swimming+Pool+01.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/67b702ae-3d5b-43c1-8b46-7f7e11c91de4_IMG_20200829_152944.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/67b702ae-3d5b-43c1-8b46-7f7e11c91de4_IMG_20200829_152944.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/67b702ae-3d5b-43c1-8b46-7f7e11c91de4_IMG_20200829_152944.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/67b702ae-3d5b-43c1-8b46-7f7e11c91de4_IMG_20200829_152944.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/51899b7d-61ed-4a28-a869-be17bc7bf8f6_IMG_20200829_152941.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/51899b7d-61ed-4a28-a869-be17bc7bf8f6_IMG_20200829_152941.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/51899b7d-61ed-4a28-a869-be17bc7bf8f6_IMG_20200829_152941.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/51899b7d-61ed-4a28-a869-be17bc7bf8f6_IMG_20200829_152941.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 3024,
+                  "height": 4032
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/789a0754-6f79-4194-b358-1d4557c73480_IMG_20200829_152948.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/789a0754-6f79-4194-b358-1d4557c73480_IMG_20200829_152948.jpg?auto=compress,format&amp;rect=0,508,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/789a0754-6f79-4194-b358-1d4557c73480_IMG_20200829_152948.jpg?auto=compress,format&amp;rect=0,504,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/789a0754-6f79-4194-b358-1d4557c73480_IMG_20200829_152948.jpg?auto=compress,format&amp;rect=0,505,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Available",
+      "price": 300,
+      "medium": "Oil",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "60 x 40 x 2",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "X0ub8RAAAKHG4tps",
+    "uid": "abstract-04",
+    "type": "art",
+    "href": "https://hadala-art.cdn.prismic.io/api/v2/documents/search?ref=X6Os4BAAACMACofn&amp;q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22X0ub8RAAAKHG4tps%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-08-30T12:36:10+0000",
+    "last_publication_date": "2020-08-30T12:36:10+0000",
+    "slugs": [
+      "abstract-04"
+    ],
+    "linked_documents": [],
+    "lang": "en-gb",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Abstract 04",
+          "spans": []
+        }
+      ],
+      "series": [],
+      "artwork_cover": {
+        "dimensions": {
+          "width": 1902,
+          "height": 1260
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/hadala-art/bff5e25a-764a-47f8-b87b-03f6ba7f9879_Abstract+Midnight+Waves.jpg?auto=compress,format",
+        "medium": {
+          "dimensions": {
+            "width": 1200,
+            "height": 1200
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/bff5e25a-764a-47f8-b87b-03f6ba7f9879_Abstract+Midnight+Waves.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1200&amp;h=1200"
+        },
+        "large": {
+          "dimensions": {
+            "width": 1920,
+            "height": 1920
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/bff5e25a-764a-47f8-b87b-03f6ba7f9879_Abstract+Midnight+Waves.jpg?auto=compress,format&amp;rect=321,0,1260,1260&amp;w=1920&amp;h=1920"
+        },
+        "small": {
+          "dimensions": {
+            "width": 720,
+            "height": 720
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/hadala-art/bff5e25a-764a-47f8-b87b-03f6ba7f9879_Abstract+Midnight+Waves.jpg?auto=compress,format&amp;rect=320,0,1260,1260&amp;w=720&amp;h=720"
+        }
+      },
+      "description": [],
+      "body": [
+        {
+          "slice_type": "gallery",
+          "slice_label": null,
+          "items": [
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/cc03f8b4-0b8a-4c8f-a831-170f13cdf5c5_IMG_20200829_151506.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/cc03f8b4-0b8a-4c8f-a831-170f13cdf5c5_IMG_20200829_151506.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/cc03f8b4-0b8a-4c8f-a831-170f13cdf5c5_IMG_20200829_151506.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/cc03f8b4-0b8a-4c8f-a831-170f13cdf5c5_IMG_20200829_151506.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            },
+            {
+              "gallery_photo": {
+                "dimensions": {
+                  "width": 4032,
+                  "height": 3024
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/hadala-art/02096e51-5857-48c2-a502-4b494d930efd_IMG_20200829_151457.jpg?auto=compress,format",
+                "thumbnail": {
+                  "dimensions": {
+                    "width": 250,
+                    "height": 250
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/02096e51-5857-48c2-a502-4b494d930efd_IMG_20200829_151457.jpg?auto=compress,format&amp;rect=508,0,3024,3024&amp;w=250&amp;h=250"
+                },
+                "medium": {
+                  "dimensions": {
+                    "width": 720,
+                    "height": 720
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/02096e51-5857-48c2-a502-4b494d930efd_IMG_20200829_151457.jpg?auto=compress,format&amp;rect=504,0,3024,3024&amp;w=720&amp;h=720"
+                },
+                "large": {
+                  "dimensions": {
+                    "width": 1600,
+                    "height": 1600
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.prismic.io/hadala-art/02096e51-5857-48c2-a502-4b494d930efd_IMG_20200829_151457.jpg?auto=compress,format&amp;rect=505,0,3024,3024&amp;w=1600&amp;h=1600"
+                }
+              }
+            }
+          ],
+          "primary": {}
+        }
+      ],
+      "status": "Available",
+      "price": 200,
+      "medium": "Acrylic",
+      "link": {
+        "link_type": "Any"
+      },
+      "dimensions": [
+        {
+          "type": "paragraph",
+          "text": "40 x 60 x2",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

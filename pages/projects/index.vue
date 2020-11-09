@@ -15,7 +15,6 @@ export default {
       loading: false
     };
   },
-
   async asyncData({ $prismic, error }) {
     try {
       const projects = await $prismic.api.query(

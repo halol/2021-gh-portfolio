@@ -70,7 +70,10 @@ export default {
   }
 }
 .sandbox-container {
-  margin: 3em 6em;
+  margin: 5%;
+  @include xxl {
+    margin: 5% 10%;
+  }
 }
 .item {
   background: rgba(teal, 0.2);

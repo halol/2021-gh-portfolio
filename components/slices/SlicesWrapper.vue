@@ -10,7 +10,11 @@
         name="image_gallery"
         v-if="slice.slice_type === 'image_gallery'"
       >
-        <slice-mockups :slice="slice" :color="color"></slice-mockups>
+        <slice-mockups
+          :slice="slice"
+          :color="color"
+          v-show="false"
+        ></slice-mockups>
       </template>
       <template name="text" v-if="slice.slice_type === 'text'">
         <slice-text :slice="slice"></slice-text>
