@@ -1,8 +1,5 @@
 <template>
   <div class="app-flex">
-    <div class="nav-flex">
-      <app-navigation></app-navigation>
-    </div>
     <div class="content-flex">
       <Nuxt />
     </div>

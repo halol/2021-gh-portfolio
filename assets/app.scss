@@ -20,11 +20,22 @@ html {
   overflow: hidden;
   position: relative;
   min-height: -webkit-fill-available;
+  @include sm {
+    min-height: -webkit-fill-available;
+    overflow: auto;
+    padding-bottom: 96px;
+  }
 }
 
 html {
   overflow-x: hidden;
   margin-right: calc(-1 * (100vw - 100%));
+  @include sm {
+    min-height: -webkit-fill-available;
+    overflow: auto;
+    // padding-bottom: 96px;
+    margin: auto;
+  }
 }
 body {
   font-family: $font-family;

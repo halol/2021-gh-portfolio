@@ -3,19 +3,19 @@
     <h1 class="nav-title">Grzegorz Hadala&mdash;Product Designer</h1>
     <nav class="nav">
       <nuxt-link to="/" class="button button-link"
-        ><i class="ci-home_alt_outline"></i>Home</nuxt-link
+        ><i class="ci-home_alt_outline"></i><span>Home</span></nuxt-link
       >
       <nuxt-link to="/projects" class="button button-link"
-        ><i class="ci-doughnut_chart"></i>Projects</nuxt-link
+        ><i class="ci-doughnut_chart"></i><span>Projects</span></nuxt-link
       >
       <nuxt-link to="/art" class="button button-link"
-        ><i class="ci-file_image"></i>Art</nuxt-link
+        ><i class="ci-file_image"></i><span>Art</span></nuxt-link
       >
       <nuxt-link to="/blog" class="button button-link"
-        ><i class="ci-text_align_left"></i>Blog</nuxt-link
+        ><i class="ci-text_align_left"></i><span>Blog</span></nuxt-link
       >
       <nuxt-link to="/about" class="button button-link"
-        ><i class="ci-user_circle"></i>About</nuxt-link
+        ><i class="ci-user_circle"></i><span>About</span></nuxt-link
       >
       <div class="social">
         <a href="" class="button button-link"
@@ -48,15 +48,57 @@ export default {};
     align-items: flex-start;
     margin: 0;
   }
+  @include sm {
+    margin: 0;
+  }
 }
 .nav-title {
   @extend .h5;
+  @include sm {
+    display: none;
+  }
 }
 .nav {
   display: flex;
+
+  @include sm {
+    width: 100%;
+
+    justify-content: space-around;
+    z-index: 999;
+    > * {
+      margin: 0;
+    }
+    > .button {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      height: 64px;
+      flex-grow: 1;
+      border-radius: 0;
+      &:focus,
+      .nuxt-link-exact-active {
+        background: $primary;
+        color: white;
+        > i {
+          color: white;
+        }
+      }
+      > i {
+        margin: 0;
+        outline: 1px solid pink;
+      }
+      span {
+        display: none;
+      }
+    }
+  }
   .social {
     display: flex;
     .button > span {
+      display: none;
+    }
+    @include sm {
       display: none;
     }
     > * {
@@ -78,10 +120,18 @@ export default {};
         }
       }
     }
+    @include sm {
+    }
   }
-  > {
-    :not(:last-child) {
+  > * {
+    &:not(:last-child) {
       margin-right: 2em;
+    }
+    @include sm {
+      margin: 0;
+      &:not(:last-child) {
+        margin-right: 0em;
+      }
     }
   }
   @include xxl {

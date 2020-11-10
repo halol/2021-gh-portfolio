@@ -23,14 +23,27 @@ export default {};
   @include xxl {
     flex-direction: row;
   }
+  @include sm {
+    height: auto;
+    display: block;
+  }
 }
 
 .nav-flex {
   background: white;
-
+  padding: 1em 0;
   @include xxl {
     width: 400px;
     padding: 2em;
+  }
+  @include sm {
+    height: 64px;
+    bottom: 0;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 0;
   }
 }
 
@@ -41,6 +54,10 @@ export default {};
   margin-right: calc(-1 * (100vw - 100%));
   @include xxl {
     flex: 5;
+  }
+  @include sm {
+    display: block;
+    overflow: auto;
   }
 }
 .container-flex {

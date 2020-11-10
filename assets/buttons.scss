@@ -107,6 +107,13 @@
 
     &.nuxt-link-exact-active {
       color: $primary;
+      @include sm {
+        color: white;
+        background: $primary;
+        > i {
+          color: white;
+        }
+      }
     }
     &:hover {
       color: $primary;
@@ -160,6 +167,12 @@
   @include sm {
     top: auto;
     bottom: 1em;
-    left: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 2px 12px rgba($black, 0.2);
+  }
+  @media only screen and (max-width: $screen-xl-min) and (min-width: $screen-md-min) {
+    top: 3em;
+    right: 3em;
   }
 }

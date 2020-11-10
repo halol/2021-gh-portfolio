@@ -128,11 +128,18 @@ export default {
   padding: 2em;
   display: flex;
   flex-direction: column;
+  @include sm {
+    padding: 1em;
+  }
+
   .meta-top {
     @extend .h4;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    @include sm {
+      flex-direction: column;
+    }
   }
   .meta-bottom {
     color: $grey-medium;
