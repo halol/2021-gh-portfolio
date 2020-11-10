@@ -74,8 +74,32 @@ export default {
 .art-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 900px;
+  grid-auto-rows: 700px;
   grid-gap: 2em;
+  @include xxl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 700px;
+    grid-gap: 2em;
+  }
+  @include lg {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 700px;
+    grid-gap: 2em;
+  }
+  @include md {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 500px;
+    grid-gap: 2em;
+  }
+  @include sm {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 500px;
+    grid-gap: 2em;
+  }
 }
 .art-gallery-tile {
   display: grid;
