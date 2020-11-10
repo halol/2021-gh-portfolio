@@ -1,5 +1,5 @@
 <template>
-  <div class="page art-page">
+  <div class="art-page">
     <div class="art-gallery">
       <div
         class="art-gallery-tile"

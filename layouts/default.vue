@@ -27,6 +27,7 @@ export default {};
 
 .nav-flex {
   background: white;
+
   @include xxl {
     width: 400px;
     padding: 2em;
@@ -35,7 +36,7 @@ export default {};
 
 .content-flex {
   flex-grow: 1;
-  overflow-y: auto;
+  overflow-y: scroll;
   overflow-x: hidden;
   margin-right: calc(-1 * (100vw - 100%));
   @include xxl {

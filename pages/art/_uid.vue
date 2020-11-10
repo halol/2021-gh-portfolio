@@ -1,5 +1,5 @@
 <template>
-  <div class="page page-artwork-uid">
+  <div class="page-artwork-uid">
     <nuxt-link to="/art" class="button-back"
       ><i class="ci-close_big"></i
     ></nuxt-link>

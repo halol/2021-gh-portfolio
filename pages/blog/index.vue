@@ -1,5 +1,5 @@
 <template>
-  <div class="page page-blog">
+  <div class="page-blog">
     <div class="blog-layout">
       <div class="posts">
         <div

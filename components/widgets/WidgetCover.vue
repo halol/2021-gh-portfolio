@@ -19,7 +19,7 @@
 export default {
   props: {
     slices: {
-      type: Object
+      type: Array
     },
     limit: {
       type: Number,

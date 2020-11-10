@@ -15,8 +15,11 @@
 
 body,
 html {
-  height: 100%;
   font-size: 18px;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  min-height: -webkit-fill-available;
 }
 
 html {
@@ -42,6 +45,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+i[class*="ci-"] {
+  font-size: 1.5em;
 }
 
 .card {

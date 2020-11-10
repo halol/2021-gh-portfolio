@@ -20,13 +20,12 @@
   will-change: contents;
 
   font-family: $font-family-buttons;
-
+  > i {
+    margin-right: 0.5em;
+    will-change: contents;
+  }
   &.button-block {
     display: block;
-  }
-  &.has-icon {
-    display: flex;
-    justify-content: space-between;
   }
 
   &:hover {
@@ -100,10 +99,16 @@
 
   &.button-link {
     padding: 0;
-    display: inline;
+    // display: inline-block;
     background-color: transparent;
     border: none;
+    display: flex;
+    align-items: center;
+
     &.nuxt-link-exact-active {
+      color: $primary;
+    }
+    &:hover {
       color: $primary;
     }
     &:active,
