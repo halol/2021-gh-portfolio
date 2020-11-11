@@ -5,7 +5,9 @@
     ></nuxt-link>
     <header class="project_header" :style="{ background: document.key_color }">
       <div class="project-hero">
-        <h5 class="label-company is-page">{{ document.company[0].text }}</h5>
+        <h5 class="label-company is-page">
+          {{ $prismic.asText(document.company) }}
+        </h5>
         <div
           class="mockup-holder hidden-sm"
           :style="{ background: document.key_color }"
@@ -23,20 +25,19 @@
             </template>
           </template>
         </div>
-        <div class="flex-end">
-          <h1 class="label-title is-page">
-            {{ document.project_name[0].text }}
-          </h1>
-
-          <p class="label-description is-page">
-            {{ document.project_intro[0].text }}
-          </p>
-          <widget-platforms :platforms="document.platforms"></widget-platforms>
-        </div>
+        <div class="flex-end"></div>
       </div>
     </header>
 
     <div class="container-flex">
+      <h1 class="label-title is-page">
+        {{ $prismic.asText(document.project_name) }}
+      </h1>
+
+      <p class="label-description is-page">
+        {{ $prismic.asText(document.project_intro) }}
+      </p>
+      <widget-platforms :platforms="document.platforms"></widget-platforms>
       <slices-wrapper :slices="document.body"></slices-wrapper>
     </div>
   </div>
@@ -102,7 +103,7 @@ $header-height: 80vh;
 }
 
 .project-hero {
-  outline: 1px solid blue;
+  // outline: 1px solid blue;
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -122,7 +123,7 @@ $header-height: 80vh;
   display: flex;
   flex-direction: row;
   flex-flow: nowrap;
-  outline: 1px solid greenyellow;
+  // outline: 1px solid greenyellow;
   align-items: top;
   position: relative;
   top: 96px;
@@ -130,7 +131,7 @@ $header-height: 80vh;
 
 .header-mockup-image {
   height: 80vh;
-  outline: 1px solid greenyellow;
+  // outline: 1px solid greenyellow;
   &:not(:last-child) {
     margin-right: 32px;
   }

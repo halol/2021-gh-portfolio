@@ -61,6 +61,7 @@
       box-shadow: 0px 0px 0px 4px rgba($secondary, 20%);
     }
   }
+
   &.button-bright {
     background: #fff;
     color: black;
@@ -70,6 +71,13 @@
     will-change: contents;
     transition: all 300ms ease;
     text-align: center;
+    &.make-it-dark {
+      color: white;
+      background: $black;
+      &:active {
+        background: $grey-medium;
+      }
+    }
     &:hover {
       box-shadow: 0 4px 8px rgba(black, 0.2);
       //transform: translateY(1px);
@@ -141,7 +149,7 @@
 
 .button-back {
   position: fixed;
-  top: 2em;
+  top: 1.5em;
   right: 2em;
   z-index: 999;
   background: white;
@@ -172,7 +180,7 @@
     box-shadow: 0 2px 12px rgba($black, 0.2);
   }
   @media only screen and (max-width: $screen-xl-min) and (min-width: $screen-md-min) {
-    top: 3em;
+    top: 2em;
     right: 3em;
   }
 }
