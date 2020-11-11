@@ -8,7 +8,6 @@
         <p :key="index" v-if="p.type === 'paragraph'">{{ p.text }}</p>
       </template>
     </div>
-    <pre>{{ document }}</pre>
   </div>
 </template>
 
@@ -41,8 +40,8 @@ export default {
   object-fit: cover;
   border-radius: 100%;
   position: relative;
-  left: -2em;
-  top: -2em;
+  // left: -2em;
+  // top: -2em;
   @include sm {
     top: 0;
     left: 0;
