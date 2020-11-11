@@ -18,13 +18,23 @@
         ><i class="ci-user_circle"></i><span>About</span></nuxt-link
       >
       <div class="social">
-        <a href="" class="button button-link"
+        <a
+          href="https://figma.com/@greghadala
+"
+          class="button button-link"
+          target="_blank"
           ><i class="ci-Figma"></i> <span>Figma</span></a
         >
-        <a href="" class="button button-link"
+        <a
+          href="https://www.linkedin.com/in/grzegorzhadala/"
+          target="_blank"
+          class="button button-link"
           ><i class="ci-LinkedIn"></i><span>LinkedIn</span></a
         >
-        <a href="" class="button button-link"
+        <a
+          href="https://www.instagram.com/grzesiekmarekjurek/"
+          target="_blank"
+          class="button button-link"
           ><i class="ci-instagram"></i><span>Instagram</span></a
         >
       </div>
@@ -86,7 +96,6 @@ export default {};
       }
       > i {
         margin: 0;
-        outline: 1px solid pink;
       }
       span {
         display: none;
@@ -103,7 +112,7 @@ export default {};
     }
     > * {
       &:not(:last-child) {
-        margin-right: 2em;
+        margin-right: 1em;
       }
     }
 

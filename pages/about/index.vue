@@ -43,5 +43,9 @@ export default {
   position: relative;
   left: -2em;
   top: -2em;
+  @include sm {
+    top: 0;
+    left: 0;
+  }
 }
 </style>

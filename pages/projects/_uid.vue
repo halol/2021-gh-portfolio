@@ -44,6 +44,18 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: `${this.document.company[0].text} | ${this.document.project_name[0].text}`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.document.project_intro[0].text
+        }
+      ]
+    };
+  },
   scrollToTop: true,
   layout: "project",
   async asyncData({ $prismic, params, route, error }) {

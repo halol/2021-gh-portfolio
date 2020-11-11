@@ -28,12 +28,25 @@
         ></div>
       </div>
     </div>
-    <div class="artwork-description">omething</div>
+    <div class="artwork-description">Something</div>
   </div>
 </template>
 
 <script>
 export default {
+  head() {
+    return {
+      title: `Art | ${this.document.title[0].text}`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.document.description[0].text
+        }
+      ]
+    };
+  },
+  layout: "project",
   data() {
     return {
       selectedImage: 0,

@@ -36,6 +36,18 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: `Blog | Grzegorz Hadała - Product Designer`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Description about blog"
+        }
+      ]
+    };
+  },
   methods: {
     renderCover(url) {
       return `background-image: url('${url}');`;

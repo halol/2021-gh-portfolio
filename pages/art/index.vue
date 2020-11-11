@@ -35,6 +35,18 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: `Art | Grzegorz Hadała - Product Designer`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Description about art"
+        }
+      ]
+    };
+  },
   methods: {
     parseStyle(url) {
       return `background-image: url(${url});`;

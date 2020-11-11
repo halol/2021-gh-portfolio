@@ -10,6 +10,18 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: `Projects | Grzegorz Hadała - Product Designer`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Description about projects"
+        }
+      ]
+    };
+  },
   data() {
     return {
       loading: false
