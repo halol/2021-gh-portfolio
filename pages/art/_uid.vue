@@ -14,9 +14,7 @@
         </div>
         <div class="artwork-description">
           <p class="artwork-details">Acrylic, Size: 80/80/2</p>
-          <p class="artwork-description-text" v-if="getDescription">
-            {{ getDescription }}
-          </p>
+          <p class="artwork-description-text"></p>
         </div>
         <div class="art-form"></div>
         <div class="art-controls">
