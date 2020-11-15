@@ -4,7 +4,7 @@
       <nuxt-link to="/art" class="button-back"
         ><i class="ci-close_big"></i
       ></nuxt-link>
-      <div class="artwork-header" :class="{ hiddenBox: !showInfo }">
+      <div class="artwork-header hidden-sm" :class="{ hiddenBox: !showInfo }">
         <div class="artwork-title">
           <h1>{{ $prismic.asText(document.title) }}</h1>
           <button class="button button-icon" @click="toggleBox">
@@ -42,6 +42,30 @@
         ></div>
       </div>
     </div>
+    <div class="artwork-footer visible-sm">
+        <div class="artwork-title">
+          <h1>{{ $prismic.asText(document.title) }}</h1>
+        </div>
+        <div class="artwork-description">
+          <p class="artwork-details">Acrylic, Size: 80/80/2</p>
+          <p class="artwork-description-text"></p>
+        </div>
+        <div class="art-form"></div>
+        <widget-status
+            :status="document.status"
+            :price="document.price"
+          ></widget-status>
+        <div class="art-controls">
+          
+          <a
+            v-if="document.status === 'Available'"
+            :href="generateMail"
+            class="button button-bright make-it-dark"
+          >
+            Reserve
+          </a>
+        </div>
+      </div>
   </div>
 </template>
 
@@ -134,7 +158,7 @@ export default {
 .artwork-header {
   display: flex;
   //margin: 2em 0;
-  min-width: 500px;
+  min-width: 600px;
   flex-direction: column;
   position: absolute;
   bottom: 2em;
@@ -235,6 +259,23 @@ export default {
     &:not(:last-child) {
       margin-right: 0.5em;
     }
+  }
+}
+
+@include sm {
+  .page-artwork-uid {
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+  }
+  .artwork-cover {
+    height: 50vh;
+  }
+  .artwork-footer {
+    padding: 1em;
+  }
+  .artwork-toggle {
+    left: 1em;
+    bottom: 1em;
   }
 }
 </style>

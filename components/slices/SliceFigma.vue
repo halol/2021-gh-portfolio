@@ -1,5 +1,5 @@
 <template>
-<div class="slice-text">
+<div class="slice-embed">
   <div v-html="slice.primary.embed.html"></div>
 </div>
 </template>
@@ -11,8 +11,13 @@ export default {
 </script>
 
 <style lang="scss">
-.slice-text {
-  max-width: 50em;
+.slice-embed {
+  max-width: $screenshot-width;
   margin: 0 auto;
+  iframe {
+    width: 100%;
+    min-height: 1000px;
+    margin: 0 auto;
+  }
 }
 </style>

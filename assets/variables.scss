@@ -117,3 +117,25 @@ $border-radius-large: $border-radius * 2;
     visibility: hidden;
   }
 }
+
+.visible-xxl {
+  display: block;
+    visibility: visible;
+    include sm {
+      display: none;
+      visibility: hidden;
+    }
+}
+
+.visible-sm {
+  display: none;
+    visibility: hidden;
+  @include sm {
+    display: block;
+    visibility: visible;
+  }
+}
+
+
+$text-width: 50em;
+$screenshot-width: 54em;

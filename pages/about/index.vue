@@ -7,6 +7,7 @@
         <h2 :key="index" v-if="p.type === 'heading2'">{{ p.text }}</h2>
         <p :key="index" v-if="p.type === 'paragraph'">{{ p.text }}</p>
       </template>
+      <widget-work-history></widget-work-history>
     </div>
   </div>
 </template>

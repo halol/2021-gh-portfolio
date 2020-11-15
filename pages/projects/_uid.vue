@@ -5,11 +5,15 @@
     ></nuxt-link>
     <header class="project_header" :style="{ background: document.key_color }">
       <div class="project-hero">
-        <h5 class="label-company is-page">
-          {{ $prismic.asText(document.company) }}
-        </h5>
+        <div class="company-and-platforms">
+          <div class="uid-company">
+            {{ $prismic.asText(document.company) }} 
+          </div>
+          <div class="uid-project-year">{{ parseYear }}</div>
+          
+        </div>
         <div
-          class="mockup-holder hidden-sm"
+          class="mockup-holder"
           :style="{ background: document.key_color }"
         >
           <template v-for="slice in document.body">
@@ -30,14 +34,16 @@
     </header>
 
     <div class="container-flex">
-      <h1 class="label-title is-page">
+      <div class="project-introduction">
+        <h1 class="h1">
         {{ $prismic.asText(document.project_name) }}
       </h1>
 
       <p class="label-description is-page">
         {{ $prismic.asText(document.project_intro) }}
       </p>
-      <widget-platforms :platforms="document.platforms"></widget-platforms>
+      
+      </div>
       <slices-wrapper :slices="document.body"></slices-wrapper>
     </div>
   </div>
@@ -56,6 +62,11 @@ export default {
         }
       ]
     };
+  },
+  computed: {
+    parseYear() {
+      return this.document.meta_year.substring(0, 4)
+    }
   },
   scrollToTop: true,
   layout: "project",
@@ -97,11 +108,29 @@ $header-height: 80vh;
   grid-template-columns: 1fr 2fr;
   @include sm {
     display: block;
-    height: auto;
-    min-height: 30vh;
+    height: 100%;
+    //height: 50vh;
   }
 }
 
+.project-introduction {
+  max-width: $text-width;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+.company-and-platforms {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.5em;
+  color: white;
+}
+.uid-project-year {
+  margin-left: 1em;
+}
+.uid-company {
+  font-weight: 600;
+}
 .project-hero {
   // outline: 1px solid blue;
   display: flex;
@@ -111,7 +140,7 @@ $header-height: 80vh;
   flex-flow: wrap;
   position: relative;
   padding: 96px;
-  min-width: 40vw;
+  //min-width: 40vw;
   @include sm {
     padding: 1em;
     width: auto;

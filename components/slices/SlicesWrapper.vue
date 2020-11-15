@@ -31,6 +31,12 @@
       <template name="quote" v-if="slice.slice_type === 'quote'">
         <slice-quote :slice="slice"></slice-quote>
       </template>
+      <template name="promo" v-if="slice.slice_type === 'selfpromo'">
+        <slice-promo-slide :slice="slice"></slice-promo-slide>
+      </template>
+      <template name="promo" v-if="slice.slice_type === 'brands'">
+        <slice-brands :slice="slice"></slice-brands>
+      </template>
     </section>
   </div>
 </template>

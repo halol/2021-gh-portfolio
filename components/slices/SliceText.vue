@@ -1,5 +1,6 @@
 <template>
 <div class="slice-text">
+  <prismic-rich-text :field="slice.primary.section_title" class="uid-section-title"/>
   <prismic-rich-text :field="slice.primary.text" />
 </div>
 </template>
@@ -12,7 +13,11 @@ export default {
 
 <style lang="scss">
 .slice-text {
-  max-width: 50em;
+  max-width: $text-width;
   margin: 0 auto;
+}
+.uid-section-title {
+  margin-bottom: .5em;
+  @extend .h3;
 }
 </style>

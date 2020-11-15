@@ -1,7 +1,7 @@
 <template>
   <div class="projects-page">
     <project-tile
-      v-for="project in documents"
+      v-for="project in orderByYear"
       :key="project.id"
       :project="project"
     ></project-tile>
@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import _ from 'lodash';
 export default {
   head() {
     return {
@@ -27,10 +28,15 @@ export default {
       loading: false
     };
   },
+  computed: {
+    orderByYear() {
+      return _.orderBy(this.documents, ['data.meta_year'], ['desc']);
+    }
+  },
   async asyncData({ $prismic, error }) {
     try {
       const projects = await $prismic.api.query(
-        $prismic.predicates.at("document.type", "project")
+        $prismic.predicates.at("document.type", "project"), { orderings: '[document.results.meta_year desc]'}
       );
 
       return {

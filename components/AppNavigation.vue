@@ -11,9 +11,9 @@
       <nuxt-link to="/art" class="button button-link"
         ><i class="ci-file_image"></i><span>Art</span></nuxt-link
       >
-      <nuxt-link to="/blog" class="button button-link"
+      <!-- <nuxt-link to="/blog" class="button button-link"
         ><i class="ci-text_align_left"></i><span>Blog</span></nuxt-link
-      >
+      > -->
       <nuxt-link to="/about" class="button button-link"
         ><i class="ci-user_circle"></i><span>About</span></nuxt-link
       >

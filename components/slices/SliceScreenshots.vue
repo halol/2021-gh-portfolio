@@ -1,6 +1,6 @@
 <template>
   <div class="slice-screenshots">
-    <figure v-for="item in slice.items" :key="item.id" class="card screenshot">
+    <figure v-for="item in slice.items" :key="item.id" class="screenshot">
       <img
         class="screenshot_img"
         :src="item.screenshot_image.url"
@@ -34,14 +34,13 @@ export default {
 
 <style lang="scss">
 .slice-screenshots {
-  // max-width: 60%;
-  // margin: 0 auto;
+  max-width: $screenshot-width;
+  margin: 0 auto;
 }
-
 .screenshot {
   overflow: hidden;
   position: relative;
-  padding: 24px;
+  //padding: 24px;
   @include sm {
     padding: 0.5em;
   }
@@ -71,13 +70,13 @@ export default {
     }
   }
 
-  background: $screenshot-bg;
+  //background: $screenshot-bg;
 }
 
 .fig-caption {
   text-align: center;
   color: color($theme-light, "muted");
-
+  margin-top: 1em;
   @include theme-dark {
     bcolor: color($theme-dark, "muted");
   }

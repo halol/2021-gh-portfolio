@@ -52,6 +52,12 @@ export default {
   &:not(:last-child) {
     margin-right: 2em;
   }
+  @include sm {
+    margin: 0 !important;
+    &:not(:first-child) {
+      display: none;
+    }
+  }
 }
 
 @keyframes transitionImage {
