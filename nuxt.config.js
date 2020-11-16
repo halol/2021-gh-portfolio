@@ -6,6 +6,11 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
+      { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: 'Greg Hadala'},
+      { hid: 'og:title', name: 'og:title', content: 'Grzegorz Hadala – Product Designer'},
+      { hid: 'og:description', name: 'og:description', content: 'Design thinker, artistic soul and a problem solver with a pragmatic and holistic approach.'},
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Grzegorz Hadala – Product Designer'},
+      { hid: 'og:image', name: 'og:image', content: 'https://www.grzegorzhadala.com/social-cover.png'},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -24,7 +29,9 @@ export default {
       // <meta name="theme-color" content="#ffffff"></meta>
     ]
   },
-
+  googleAnalytics: {
+    id: 'UA-6874650-30'
+  },
 
   loading: { color: '#1774ff'},
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -46,7 +53,6 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     // '~/plugins/route.js',
-    '~/plugins/ga.js'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -65,6 +71,7 @@ export default {
     "@nuxtjs/prismic",
     '@nuxtjs/style-resources',
     '@neneos/nuxt-animate.css',
+    '@nuxtjs/google-analytics',
   ],
 
   prismic: {
