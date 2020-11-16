@@ -8,9 +8,9 @@
       <nuxt-link to="/projects" class="button button-link"
         ><i class="ci-doughnut_chart"></i><span>Projects</span></nuxt-link
       >
-      <nuxt-link to="/art" class="button button-link"
+      <!-- <nuxt-link to="/art" class="button button-link"
         ><i class="ci-file_image"></i><span>Art</span></nuxt-link
-      >
+      > -->
       <!-- <nuxt-link to="/blog" class="button button-link"
         ><i class="ci-text_align_left"></i><span>Blog</span></nuxt-link
       > -->
@@ -19,18 +19,19 @@
       >
       <div class="social">
         <a
-          href="https://figma.com/@greghadala
-"
+          href="https://figma.com/@greghadala"
           class="button button-link"
           target="_blank"
-          ><i class="ci-Figma"></i> <span>Figma</span></a
-        >
+          ><i class="ci-Figma"></i> <span>Figma</span>
+        </a>
         <a
           href="https://www.linkedin.com/in/grzegorzhadala/"
           target="_blank"
           class="button button-link"
-          ><i class="ci-LinkedIn"></i><span>LinkedIn</span></a
         >
+          <i class="ci-LinkedIn"></i>
+          <span>LinkedIn</span>
+        </a>
         <a
           href="https://www.instagram.com/grzesiekmarekjurek/"
           target="_blank"

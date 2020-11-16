@@ -132,7 +132,8 @@ export default {
   },
   computed: {
     groupByYear() {
-      return _.groupBy(this.work, "year");
+      const groupByYear = _.groupBy(this.work, "year");
+      return _.orderBy(groupByYear, ["year"], ["desc"]);
     }
   }
 };
