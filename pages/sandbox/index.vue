@@ -41,44 +41,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.app {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  @include xxl {
-    flex-direction: row;
-  }
-}
-
-.sandbox-nav {
-  background: rgba(orange, 0.2);
-  @include xxl {
-    width: 400px;
-    padding: 2em;
-  }
-}
-
-.sandbox-content {
-  background: rgba(blue, 0.2);
-  flex-grow: 1;
-  overflow-y: auto;
-  overflow-x: hidden;
-  margin-right: calc(-1 * (100vw - 100%));
-  @include xxl {
-    flex: 5;
-  }
-}
-.sandbox-container {
-  margin: 5%;
-  @include xxl {
-    margin: 5% 10%;
-  }
-}
-.item {
-  background: rgba(teal, 0.2);
-  &:not(:last-child) {
-    margin-bottom: 2em;
-  }
-}
-</style>
+<style lang="scss"></style>

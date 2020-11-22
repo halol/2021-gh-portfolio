@@ -1,8 +1,6 @@
 <template>
-  <div class="app-flex">
-    <div class="content-flex">
-      <Nuxt />
-    </div>
+  <div class="project-layout">
+    <Nuxt />
   </div>
 </template>
 

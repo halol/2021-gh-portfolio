@@ -1,12 +1,11 @@
 <template>
-  <div class="app-flex">
-    <div class="nav-flex">
+  <div class="bg-gray-100">
+    <div class="bg-white sticky top-0 z-50">
       <app-navigation></app-navigation>
     </div>
-    <div class="content-flex">
-      <div class="container-flex">
-        <Nuxt />
-      </div>
+
+    <div class="container mx-auto py-6">
+      <Nuxt />
     </div>
   </div>
 </template>
@@ -15,55 +14,4 @@
 export default {};
 </script>
 
-<style lang="scss">
-.app-flex {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  @include xxl {
-    flex-direction: row;
-  }
-  @include sm {
-    height: auto;
-    display: block;
-  }
-}
-
-.nav-flex {
-  background: white;
-  padding: 1em 0;
-  @include xxl {
-    width: 400px;
-    padding: 2em;
-  }
-  @include sm {
-    height: 64px;
-    bottom: 0;
-    display: block;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding: 0;
-  }
-}
-
-.content-flex {
-  flex-grow: 1;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin-right: calc(-1 * (100vw - 100%));
-  @include xxl {
-    flex: 5;
-  }
-  @include sm {
-    display: block;
-    overflow: auto;
-  }
-}
-.container-flex {
-  margin: 5%;
-  @include xxl {
-    margin: 5% 10%;
-  }
-}
-</style>
+<style lang="scss"></style>

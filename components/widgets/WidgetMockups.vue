@@ -33,31 +33,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.mockup-div {
-  flex: 1;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-}
-
-.mockups-cover {
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  width: 100%;
-  height: 110%;
-  //max-height: 500px;
-}
-
-.mockups-cover-image {
-  object-fit: contain;
-  height: 100%;
-  width: auto;
-
-  &:not(:last-child) {
-    margin-right: 2em;
-  }
-}
-</style>
+<style lang="scss"></style>

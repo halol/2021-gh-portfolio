@@ -1,49 +1,49 @@
 <template>
-  <div>
-    <nuxt-link to="/projects" class="button-back"
+  <div class="_uid-project relative">
+    <nuxt-link
+      to="/projects"
+      class="bg-white shadow-1 rounded-full fixed top-12 right-12 w-10 h-10 flex items-center justify-center"
       ><i class="ci-close_big"></i
     ></nuxt-link>
-    <header class="project_header" :style="{ background: document.key_color }">
-      <div class="project-hero">
-        <div class="company-and-platforms">
-          <div class="uid-company">
-            {{ $prismic.asText(document.company) }} 
-          </div>
-          <div class="uid-project-year">{{ parseYear }}</div>
-          
+    <header
+      class="flex max-h-100vh p-32"
+      :style="{ background: document.key_color }"
+    >
+      <div class="text-xl" role="project-title">
+        <div class="text-white text-2xl">
+          {{ $prismic.asText(document.company) }}
         </div>
-        <div
-          class="mockup-holder"
-          :style="{ background: document.key_color }"
+        <div class="text-white text-opacity-75 mb-2">{{ parseYear }}</div>
+        <h1
+          class="text-5xl text-opacity-75 tracking-tight leading-tight max-w-4xl"
         >
-          <template v-for="slice in document.body">
-            <template v-if="slice.slice_type === 'image_gallery'">
-              <img
-                v-for="(mockup, index) in slice.items"
-                :key="index"
-                :src="mockup.mockup_image.url"
-                alt="Mockup"
-                class="header-mockup-image"
-                draggable="false"
-              />
-            </template>
-          </template>
-        </div>
-        <div class="flex-end"></div>
+          {{ $prismic.asText(document.project_name) }}
+        </h1>
       </div>
     </header>
+    <section
+      class="px-24 grid grid-cols-4 overflow-hidden gap-10"
+      :style="{ background: document.key_color }"
+    >
+      <template v-for="slice in document.body">
+        <template v-if="slice.slice_type === 'image_gallery'">
+          <img
+            v-for="(mockup, index) in slice.items"
+            :key="index"
+            :src="mockup.mockup_image.url"
+            alt="Mockup"
+            class="h-96 -mb-24"
+            draggable="false"
+          />
+        </template>
+      </template>
+    </section>
+    <div class="container mx-auto prose py-10">
+      <prismic-rich-text
+        :field="document.project_intro"
+        class="mb-6 text-2xl font-light"
+      />
 
-    <div class="container-flex">
-      <div class="project-introduction">
-        <h1 class="h1">
-        {{ $prismic.asText(document.project_name) }}
-      </h1>
-
-      <p class="label-description is-page">
-        {{ $prismic.asText(document.project_intro) }}
-      </p>
-      
-      </div>
       <slices-wrapper :slices="document.body"></slices-wrapper>
     </div>
   </div>
@@ -65,7 +65,7 @@ export default {
   },
   computed: {
     parseYear() {
-      return this.document.meta_year.substring(0, 4)
+      return this.document.meta_year.substring(0, 4);
     }
   },
   scrollToTop: true,
@@ -90,79 +90,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-$header-height: 80vh;
-.layout {
-  padding: 96px;
-  outline: 1px solid purple;
-  @include sm {
-    padding: 1em;
-  }
-}
-.project_header {
-  height: $header-height;
-  position: relative;
-  overflow: hidden;
-  display: grid;
-  gap: 48px;
-  grid-template-columns: 1fr 2fr;
-  @include sm {
-    display: block;
-    height: 100%;
-    //height: 50vh;
-  }
-}
-
-.project-introduction {
-  max-width: $text-width;
-  margin: 0 auto;
-  margin-bottom: 3em;
-}
-.company-and-platforms {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 1.5em;
-  color: white;
-}
-.uid-project-year {
-  margin-left: 1em;
-}
-.uid-company {
-  font-weight: 600;
-}
-.project-hero {
-  // outline: 1px solid blue;
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  align-content: space-between;
-  flex-flow: wrap;
-  position: relative;
-  padding: 96px;
-  //min-width: 40vw;
-  @include sm {
-    padding: 1em;
-    width: auto;
-    align-content: flex-end;
-  }
-}
-
-.mockup-holder {
-  display: flex;
-  flex-direction: row;
-  flex-flow: nowrap;
-  // outline: 1px solid greenyellow;
-  align-items: top;
-  position: relative;
-  top: 96px;
-}
-
-.header-mockup-image {
-  height: 80vh;
-  // outline: 1px solid greenyellow;
-  &:not(:last-child) {
-    margin-right: 32px;
-  }
-}
-</style>
+<style lang="scss"></style>

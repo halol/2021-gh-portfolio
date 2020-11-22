@@ -1,12 +1,12 @@
 <template>
-  <div class="platforms">
-    <widget-pill
-      class="pill"
+  <div class="flex mt-10" role="platforms">
+    <div
+      class="px-4 py-2 bg-white bg-opacity-25 text-white rounded-full mr-2"
       v-for="(platform, index) in platforms"
       :key="'platform-' + index"
     >
       {{ platform.platform }}
-    </widget-pill>
+    </div>
   </div>
 </template>
 
@@ -16,11 +16,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.platforms + .button {
-  margin-top: 4em;
-  @include sm {
-    margin-top: 1em;
-  }
-}
-</style>
+<style lang="scss"></style>

@@ -43,29 +43,28 @@
       </div>
     </div>
     <div class="artwork-footer visible-sm">
-        <div class="artwork-title">
-          <h1>{{ $prismic.asText(document.title) }}</h1>
-        </div>
-        <div class="artwork-description">
-          <p class="artwork-details">Acrylic, Size: 80/80/2</p>
-          <p class="artwork-description-text"></p>
-        </div>
-        <div class="art-form"></div>
-        <widget-status
-            :status="document.status"
-            :price="document.price"
-          ></widget-status>
-        <div class="art-controls">
-          
-          <a
-            v-if="document.status === 'Available'"
-            :href="generateMail"
-            class="button button-bright make-it-dark"
-          >
-            Reserve
-          </a>
-        </div>
+      <div class="artwork-title">
+        <h1>{{ $prismic.asText(document.title) }}</h1>
       </div>
+      <div class="artwork-description">
+        <p class="artwork-details">Acrylic, Size: 80/80/2</p>
+        <p class="artwork-description-text"></p>
+      </div>
+      <div class="art-form"></div>
+      <widget-status
+        :status="document.status"
+        :price="document.price"
+      ></widget-status>
+      <div class="art-controls">
+        <a
+          v-if="document.status === 'Available'"
+          :href="generateMail"
+          class="button button-bright make-it-dark"
+        >
+          Reserve
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -151,131 +150,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.page-artwork-uid {
-  height: 100vh;
-}
-.artwork-header {
-  display: flex;
-  //margin: 2em 0;
-  min-width: 600px;
-  flex-direction: column;
-  position: absolute;
-  bottom: 2em;
-  left: 2em;
-  z-index: 500;
-  background: white;
-  padding: 1em;
-  border-radius: $border-radius-small;
-  will-change: contents;
-  transition: all 300ms ease;
-  &.hiddenBox {
-    will-change: contents;
-    transition: all 300ms ease;
-    transform: translateX(calc(-100% + 3em)) translateY(calc(+100% - 2.5em));
-    background: transparent;
-  }
-}
-.artwork-title {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 1em;
-}
-.art-controls {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  > p {
-    margin: 0;
-    color: $grey-medium;
-  }
-  > * {
-    &:not(:last-child) {
-      margin-right: 2em;
-    }
-  }
-}
-.artwork-cover {
-  //height: 90vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: $grey-light;
-  //border-radius: $border-radius;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  &:after {
-    content: "";
-    background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0) 100%
-    );
-    height: 100px;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-  }
-}
-.artwork-description-text {
-  max-width: 60ch;
-}
-.artwork-toggle {
-  display: flex;
-  top: 2em;
-  left: 2em;
-  z-index: 50;
-  position: absolute;
-  align-items: flex-end;
-
-  > * {
-    will-change: contents;
-    transition: all 300ms ease;
-    background-color: rgba(white, 0.5);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: $border-radius-small / 2;
-    height: 3em;
-    width: 4em;
-    filter: grayscale(100%);
-    &.active {
-      background-color: white;
-      box-shadow: 0 0 0 4px rgba($black, 0.5);
-      filter: grayscale(0%);
-    }
-    display: inline-block;
-    &:hover,
-    &:focus {
-      cursor: pointer;
-      filter: grayscale(0%);
-    }
-    &:not(:last-child) {
-      margin-right: 0.5em;
-    }
-  }
-}
-
-@include sm {
-  .page-artwork-uid {
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-    height: calc(var(--vh, 1vh) * 100);
-  }
-  .artwork-cover {
-    height: 50vh;
-  }
-  .artwork-footer {
-    padding: 1em;
-  }
-  .artwork-toggle {
-    left: 1em;
-    bottom: 1em;
-  }
-}
-</style>
+<style lang="scss"></style>

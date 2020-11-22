@@ -1,8 +1,8 @@
 <template>
   <div class="slice-table">
     <h2>Work history</h2>
-    <div class="table-container hidden-sm">
-      <table class="table">
+    <div class="-mx-10">
+      <table class="table-auto rounded-lg border-gray-300 border-collapse">
         <thead>
           <tr>
             <th>Year</th>
@@ -19,7 +19,7 @@
         </tbody>
       </table>
     </div>
-    <div class="by-year visible-sm">
+    <div class="">
       <div
         class="block-year"
         v-for="(year, index) in groupByYear"
@@ -132,42 +132,11 @@ export default {
   },
   computed: {
     groupByYear() {
-      const groupByYear = _.groupBy(this.work, "year");
-      return _.orderBy(groupByYear, ["year"], ["desc"]);
+      // let grouping = _.groupBy(this.work, "year");
+      return _.orderBy(_.groupBy(this.work, "year"), "year", "desc");
     }
   }
 };
 </script>
 
-<style lang="scss">
-.table {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-th,
-td {
-  border-bottom: 2px solid lighten($grey-medium, 50%);
-  padding: 8px 0;
-  text-align: left;
-  &:last-child {
-    text-align: right;
-  }
-}
-.block-year {
-  > h3 {
-    color: $primary;
-  }
-}
-.block-jobs {
-  padding: 1em;
-}
-.block-job {
-  &:not(:last-child) {
-    margin-bottom: 1em;
-  }
-}
-.job-location {
-  color: $grey-medium;
-}
-</style>
+<style lang="scss"></style>

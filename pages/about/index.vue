@@ -1,12 +1,27 @@
 <template>
-  <div class="page page-about">
-    <img :src="document.my_photo.url" alt="Greg" class="profile-picture" />
-    <h1 class="display-1">{{ $prismic.asText(document.intro) }}</h1>
-    <div class="story">
-      <template v-for="(p, index) in document.story">
-        <h2 :key="index" v-if="p.type === 'heading2'">{{ p.text }}</h2>
-        <p :key="index" v-if="p.type === 'paragraph'">{{ p.text }}</p>
-      </template>
+  <div class="">
+    <img
+      :src="document.my_photo.url"
+      alt="Greg"
+      class="w-48 h-48 overflow-hidden object-cover rounded-full"
+    />
+    <h1 class="text-6xl leading-tight mb-20">
+      {{ $prismic.asText(document.intro) }}
+    </h1>
+    <div class="prose mx-auto">
+      <div v-for="(p, index) in document.story" :key="index">
+        <h2
+          :key="index"
+          v-if="p.type === 'heading2'"
+          class="text-2xl font-bold mb-4"
+        >
+          {{ p.text }}
+        </h2>
+        <p :key="index" v-if="p.type === 'paragraph'" class="mb-3">
+          {{ p.text }}
+        </p>
+      </div>
+
       <widget-work-history></widget-work-history>
     </div>
   </div>
@@ -27,25 +42,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.story {
-  max-width: 100ch;
-  > h2 {
-    margin-bottom: 1em;
-    margin-top: 2em;
-  }
-}
-.profile-picture {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 100%;
-  position: relative;
-  // left: -2em;
-  // top: -2em;
-  @include sm {
-    top: 0;
-    left: 0;
-  }
-}
-</style>
+<style lang="scss"></style>

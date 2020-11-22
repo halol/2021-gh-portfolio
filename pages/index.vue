@@ -1,9 +1,13 @@
 <template>
   <div class="home-page">
-    <div class="container-flex">
-      <h1 style="margin-bottom: 3em;">{{ $prismic.asText(document.title) }}</h1>
-      <slices-wrapper :slices="document.body"></slices-wrapper>
-      <nuxt-link to="/projects" class="button button-bright"
+    <h1 class="text-6xl leading-tight my-20">
+      {{ $prismic.asText(document.title) }}
+    </h1>
+    <slices-wrapper :slices="document.body"></slices-wrapper>
+    <div class="mx-auto text-center py-10">
+      <nuxt-link
+        to="/projects"
+        class="mx-auto px-6 py-4 rounded-md font-semibold bg-blue-700 text-white"
         >Check out my projects</nuxt-link
       >
     </div>

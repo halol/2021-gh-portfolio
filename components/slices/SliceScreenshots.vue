@@ -1,5 +1,5 @@
 <template>
-  <div class="slice-screenshots">
+  <div class="slice-screenshots -mx-10">
     <figure v-for="item in slice.items" :key="item.id" class="screenshot">
       <img
         class="screenshot_img"
@@ -7,7 +7,10 @@
         :alt="item.screenshot_caption.text"
         draggable="false"
       />
-      <figcaption class="fig-caption" v-show="item.screenshot_caption">
+      <figcaption
+        class="fig-caption text-center"
+        v-show="item.screenshot_caption"
+      >
         {{ $prismic.asText(item.screenshot_caption) }}
       </figcaption>
     </figure>
@@ -32,53 +35,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.slice-screenshots {
-  max-width: $screenshot-width;
-  margin: 0 auto;
-}
-.screenshot {
-  overflow: hidden;
-  position: relative;
-  //padding: 24px;
-  @include sm {
-    padding: 0.5em;
-  }
-}
-
-.button-expand {
-  position: absolute;
-  top: 1em;
-  right: 1em;
-}
-
-.screenshot_img {
-  width: 100%;
-  display: block;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-}
-
-.screenshot {
-  &:not(:last-child) {
-    margin-bottom: 3em;
-    @include sm {
-      margin-bottom: 1em;
-    }
-  }
-
-  //background: $screenshot-bg;
-}
-
-.fig-caption {
-  text-align: center;
-  color: color($theme-light, "muted");
-  margin-top: 1em;
-  @include theme-dark {
-    bcolor: color($theme-dark, "muted");
-  }
-}
-</style>
+<style lang="scss"></style>

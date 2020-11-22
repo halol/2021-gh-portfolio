@@ -36,17 +36,17 @@ export default {
   loading: { color: '#1774ff'},
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    '@/assets/app.scss',
+    //'@/assets/app.scss',
     '@/assets/coolicons.css',
   ],
 
   styleResources: {
     scss: [
-        '~/assets/variables.scss',
-        '~/assets/maps.scss',
-        '~/assets/type.scss',
-        '~/assets/buttons.scss',
-        '~/assets/layout.scss',
+        // '~/assets/variables.scss',
+        // '~/assets/maps.scss',
+        // '~/assets/type.scss',
+        // '~/assets/buttons.scss',
+        // '~/assets/layout.scss',
     ],
 },
 
@@ -60,6 +60,7 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    '@nuxtjs/tailwindcss',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)

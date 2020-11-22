@@ -77,33 +77,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.blog-navigation {
-  position: sticky;
-  top: 100px;
-}
-.blog-layout {
-  display: grid;
-  grid-template-columns: 1fr 400px;
-  gap: 4em;
-}
-.blog-tile {
-  height: 50vh;
-  display: flex;
-  align-items: flex-end;
-}
-
-.post-summary {
-  background: white;
-  width: 40%;
-  padding: 2em;
-  margin: 1em;
-  border-radius: $border-radius / 2;
-}
-.post-title {
-  margin-bottom: 0.5em;
-}
-.post-blurb {
-  //margin: 0;
-}
-</style>
+<style lang="scss"></style>

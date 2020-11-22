@@ -1,10 +1,10 @@
 <template>
-  <div class="slice-brands">
-    <h2 class="brands-title">
+  <div class="slice-brands p-10 bg-gray-200 rounded-xl mb-10">
+    <h2 class="text-lg font-bold">
       {{ $prismic.asText(slice.primary.brands_title) }}
     </h2>
 
-    <div class="logos">
+    <div class="flex justify-between items-center">
       <div
         class="logo"
         v-for="(logo, index) in slice.items"
@@ -13,7 +13,8 @@
         <img
           :src="logo.company_logo.url"
           :alt="logo.company_logo.alt"
-          class="logo-image"
+          class="w-24"
+          style="filter: grayscale(1)"
         />
       </div>
     </div>
@@ -26,33 +27,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.brands-title {
-  //   padding: 1em;
-  margin-bottom: 2em;
-  @include sm {
-    text-align: center;
-  }
-}
-
-.logos {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  //padding: 2em;
-  @include sm {
-    flex-direction: column;
-    //align-items: flex-start;
-  }
-}
-.logo {
-  height: 60px;
-  width: auto;
-}
-.logo-image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  filter: grayscale(1);
-}
-</style>
+<style lang="scss"></style>

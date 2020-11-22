@@ -47,10 +47,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-section.slice-section {
-  &:not(:last-child) {
-    margin-bottom: 2em;
-  }
-}
-</style>
+<style lang="scss"></style>
