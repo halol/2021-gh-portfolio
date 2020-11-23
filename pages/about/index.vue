@@ -8,7 +8,7 @@
     <h1 class="text-6xl leading-tight mb-20">
       {{ $prismic.asText(document.intro) }}
     </h1>
-    <div class="prose mx-auto">
+    <div class="mx-auto">
       <div v-for="(p, index) in document.story" :key="index">
         <h2
           :key="index"

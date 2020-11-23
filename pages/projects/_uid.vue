@@ -2,28 +2,26 @@
   <div class="_uid-project relative">
     <nuxt-link
       to="/projects"
-      class="bg-white shadow-1 rounded-full fixed top-12 right-12 w-10 h-10 flex items-center justify-center"
-      ><i class="ci-close_big"></i
+      class="bg-white shadow-1 rounded-full fixed w-10 h-10 flex items-center justify-center hover:shadow-lg transition-shadow"
+      style="top: 5rem; left: 5rem;"
+      ><i class="ci-close_big text-2xl"></i
     ></nuxt-link>
-    <header
-      class="flex max-h-100vh p-32"
-      :style="{ background: document.key_color }"
-    >
-      <div class="text-xl" role="project-title">
+    <header class="flex p-32" :style="{ background: document.key_color }">
+      <div class="text-xl container mx-auto" role="project-title">
         <div class="text-white text-2xl">
           {{ $prismic.asText(document.company) }}
         </div>
         <div class="text-white text-opacity-75 mb-2">{{ parseYear }}</div>
-        <h1
-          class="text-5xl text-opacity-75 tracking-tight leading-tight max-w-4xl"
-        >
+        <h1 class="text-5xl text-white tracking-tight leading-tight">
           {{ $prismic.asText(document.project_name) }}
         </h1>
+        <widget-platforms :platforms="document.platforms"></widget-platforms>
       </div>
     </header>
     <section
-      class="px-24 grid grid-cols-4 overflow-hidden gap-10"
+      class="overflow-hidden flex flex-row w-100vw justify-center"
       :style="{ background: document.key_color }"
+      style="height: 800px; width: auto;"
     >
       <template v-for="slice in document.body">
         <template v-if="slice.slice_type === 'image_gallery'">
@@ -32,8 +30,9 @@
             :key="index"
             :src="mockup.mockup_image.url"
             alt="Mockup"
-            class="h-96 -mb-24"
+            class="object-scale-down mx-10"
             draggable="false"
+            style="height: 900px"
           />
         </template>
       </template>

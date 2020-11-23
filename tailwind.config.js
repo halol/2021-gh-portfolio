@@ -15,13 +15,19 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+      '2xl': '1536px'
     },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
 
-      black: '#000',
+      black: '#17181C',
       white: '#fff',
+      brand: '#00c58e',
+      primary: '#3C73FF',
+      secondary: '#FB5EB1',
+      teritary: '#FF9082',
+      text: '#989CA9',
 
       gray: {
         100: '#f7fafc',
@@ -297,7 +303,7 @@ module.exports = {
       ...theme('spacing'),
       full: '100%',
       screen: '100vh',
-      card: '70vh'
+      card: '600px'
     }),
     inset: {
       '0': '0',
@@ -360,7 +366,6 @@ module.exports = {
       '0': '0',
       full: '100%',
       screen: '100vh',
-      card: '70vh',
     },
     minWidth: {
       '0': '0',
@@ -705,6 +710,21 @@ module.exports = {
         },
       },
     },
+    // extend: {
+    //   typography: (theme) => ({
+    //     DEFAULT: {
+    //       // css: {
+    //       //   color: '#989CA9',
+    //       //   a: {
+    //       //     color: theme('colors.secondary'),
+    //       //     '&:hover': {
+    //       //       color: theme('colors.teritary')
+    //       //     }
+    //       //   }
+    //       // }
+    //     }
+    //   })
+    // }
   },
   variants: {
     accessibility: ['responsive', 'focus'],

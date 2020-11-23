@@ -1,6 +1,6 @@
 <template>
-  <div class="slice-brands p-10 bg-gray-200 rounded-xl mb-10">
-    <h2 class="text-lg font-bold">
+  <div class="slice-brands p-10 bg-gray-200 rounded-xl mb-10" v-show="false">
+    <h2 class="text-lg font-bold text-center mb-6">
       {{ $prismic.asText(slice.primary.brands_title) }}
     </h2>
 

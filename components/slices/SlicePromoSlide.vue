@@ -1,25 +1,25 @@
 <template>
   <div class="slice-promo mb-20">
-    <!-- <h2 class="font-bold text-2xl">
-      {{ $prismic.asText(slice.primary.promo_title) }}
-    </h2> -->
     <div
-      class="flex items-center"
-      :class="{ 'flex-row-reverse': index % 2 == 1 }"
+      class="flex items-center flex-col md:flex-row"
+      :class="{ 'md:flex-row-reverse': index % 2 == 1 }"
       v-for="(item, index) in slice.items"
       :key="'slide-' + index"
     >
-      <div class="w-6/12 p-6 prose">
-        <h3>
+      <div class="w-6/12 sm:w-full">
+        <h3 class="text-2xl text-yellow-400 mb-4 font-semibold antialiased">
           {{ $prismic.asText(item.slide_title) }}
         </h3>
-        <prismic-rich-text :field="item.slide_description" />
+        <prismic-rich-text
+          :field="item.slide_description"
+          class="text-text w-3/4 leading-relaxed text-lg font-light"
+        />
       </div>
-      <div class="w-6/12">
+      <div class="w-6/12 sm:w-full">
         <img
           :src="item.slide_image.url"
           :alt="item.slide_image.alt"
-          class="promo-image"
+          class="transition-all transform hover:rotate-3 duration-300"
         />
       </div>
     </div>
